@@ -14,6 +14,9 @@
 		8EF8F75325965AD4000850BF /* Assignment_OneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F75225965AD4000850BF /* Assignment_OneTests.swift */; };
 		8EF8F75E25965AD4000850BF /* Assignment_OneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F75D25965AD4000850BF /* Assignment_OneUITests.swift */; };
 		DC47679A25B41E9D0019873B /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC47679925B41E9D0019873B /* Picture.swift */; };
+		DC47679F25B4CF590019873B /* RowDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC47679E25B4CF590019873B /* RowDescription.swift */; };
+		DC4767A425B4D5930019873B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4767A325B4D5930019873B /* MapView.swift */; };
+		DC6D90DA25B528EA00D26F9C /* TagRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6D90D925B528EA00D26F9C /* TagRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		8EF8F75D25965AD4000850BF /* Assignment_OneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_OneUITests.swift; sourceTree = "<group>"; };
 		8EF8F75F25965AD4000850BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC47679925B41E9D0019873B /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		DC47679E25B4CF590019873B /* RowDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowDescription.swift; sourceTree = "<group>"; };
+		DC4767A325B4D5930019873B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		DC6D90D925B528EA00D26F9C /* TagRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				8EF8F74925965AD4000850BF /* Info.plist */,
 				8EF8F74625965AD4000850BF /* Preview Content */,
 				DC47679925B41E9D0019873B /* Picture.swift */,
+				DC47679E25B4CF590019873B /* RowDescription.swift */,
+				DC4767A325B4D5930019873B /* MapView.swift */,
+				DC6D90D925B528EA00D26F9C /* TagRow.swift */,
 			);
 			path = "Assignment One";
 			sourceTree = "<group>";
@@ -264,7 +273,10 @@
 			files = (
 				DC47679A25B41E9D0019873B /* Picture.swift in Sources */,
 				8EF8F74325965AD1000850BF /* ContentView.swift in Sources */,
+				DC4767A425B4D5930019873B /* MapView.swift in Sources */,
 				8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */,
+				DC47679F25B4CF590019873B /* RowDescription.swift in Sources */,
+				DC6D90DA25B528EA00D26F9C /* TagRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

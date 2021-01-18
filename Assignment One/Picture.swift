@@ -16,7 +16,9 @@ struct Picture: View {
                 .clipShape(Circle())
                 .overlay(Circle().stroke(Color.white, lineWidth: 4))
                 .shadow(radius: 7)
-            
+                .padding(-15)
+            TagRow()
+                .padding(-10)
             Divider()
             Text("Colton Swingle")
                 .font(.title)

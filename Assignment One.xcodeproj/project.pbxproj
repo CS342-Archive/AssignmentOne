@@ -13,6 +13,7 @@
 		8EF8F74825965AD4000850BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF8F74725965AD4000850BF /* Preview Assets.xcassets */; };
 		8EF8F75325965AD4000850BF /* Assignment_OneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F75225965AD4000850BF /* Assignment_OneTests.swift */; };
 		8EF8F75E25965AD4000850BF /* Assignment_OneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F75D25965AD4000850BF /* Assignment_OneUITests.swift */; };
+		E2217DC225B6801B0021FA84 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2217DC125B6801B0021FA84 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		8EF8F75925965AD4000850BF /* Assignment OneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment OneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF8F75D25965AD4000850BF /* Assignment_OneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_OneUITests.swift; sourceTree = "<group>"; };
 		8EF8F75F25965AD4000850BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2217DC125B6801B0021FA84 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				8EF8F74025965AD1000850BF /* Assignment_OneApp.swift */,
 				8EF8F74225965AD1000850BF /* ContentView.swift */,
+				E2217DC125B6801B0021FA84 /* MapView.swift */,
 				8EF8F74425965AD4000850BF /* Assets.xcassets */,
 				8EF8F74925965AD4000850BF /* Info.plist */,
 				8EF8F74625965AD4000850BF /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EF8F74325965AD1000850BF /* ContentView.swift in Sources */,
+				E2217DC225B6801B0021FA84 /* MapView.swift in Sources */,
 				8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

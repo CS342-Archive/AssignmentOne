@@ -11,7 +11,6 @@ struct ContentView: View {
             HeaderView(backgroundColor: Color(UIColor(red: 223.0/255, green: 230/255, blue: 233/255, alpha: 1)))
             MapView().frame(height: 400)
         }.ignoresSafeArea()
-        
     }
 }
 
@@ -28,11 +27,18 @@ struct HeaderView: View {
         VStack {
             Spacer().frame(height: 50)
             HStack {
-                Image("logo").resizable().scaledToFit().frame(width: 100, alignment: .leading)
+                Image("logo")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 100, alignment: .leading)
                 Spacer()
             }.padding(.horizontal, 20.0)
             HStack {
-                Text("COVID-19 Screening Tool").font(.system(.largeTitle)).fontWeight(.bold).multilineTextAlignment(.leading).padding(.horizontal, 20)
+                Text("COVID-19 Screening Tool")
+                    .font(.system(.largeTitle))
+                    .bold()
+                    .multilineTextAlignment(.leading)
+                    .padding(.horizontal, 20.0)
                 Spacer()
             }
             HStack {
@@ -42,29 +48,27 @@ struct HeaderView: View {
                 }
                 Spacer()
                 Image("doctor").resizable().scaledToFit().frame(width: 150)
-            }
-            .padding(.horizontal, 20.0)
+            }.padding(.horizontal, 20.0)
+            
             Button(action: {
                 self.showingAlert = true
-
             }) {
                 Text("Important Message")
                     .font(.system(.body))
-                    .fontWeight(.bold)
+                    .bold()
                     .padding()
                     .frame(maxWidth: .infinity)
                     .background(Color.blue)
                     .cornerRadius(10)
                     .accentColor(.white)
                     .padding()
-            }.alert(isPresented: $showingAlert) {
+                
+            }.alert(isPresented: $showingAlert, content: {
                 Alert(title: Text("Important message"), message: Text("If you have symptoms, get tested!"), dismissButton: .default(Text("Got it!")))
-            }
+            })
         }.background(color)
     }
 }
-
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

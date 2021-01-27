@@ -47,13 +47,12 @@ struct ContentView: View {
                 .offset(y: -screenSize.height*(0.03))
             }
             
-            bio
-                .multilineTextAlignment(.center)
-                .frame(width: screenSize.width*(7/8))
-            
-            Spacer()
-            
-            Divider()
+            List(0 ..< 1) { item in
+                bio
+                    .multilineTextAlignment(.center)
+                    //.frame(width: screenSize.width*(7/8))
+                    .padding([.leading, .bottom, .trailing])
+            }
             
             Spacer()
             

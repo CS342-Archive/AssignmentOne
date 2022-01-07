@@ -7,7 +7,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello CS342!")
+        VStack{
+        Image("Portrait")
+                .resizable()
+                .frame(width: 150, height: 150)
+        Text("HEY CS342!")
+                .bold()
+                .padding(30)
+        }
     }
 }
 
@@ -16,3 +23,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+// MARK: -Spot

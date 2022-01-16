@@ -6,7 +6,7 @@
 import SwiftUI
 import MapKit
 
-struct ContentView: View {
+struct GauravLuthria: View {
     @State private var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 37.4275, longitude: -122.1697), span: MKCoordinateSpan(latitudeDelta: 0.02, longitudeDelta: 0.02))
 
     var body: some View {
@@ -14,7 +14,7 @@ struct ContentView: View {
         VStack {
             Text("Today's Date is: ")
             Text(Date(), style: .date)
-            Image("headshot")
+            Image("GauravLuthria")
                 .clipShape(Circle())
             Text("Gaurav Luthria")
                 .font(.title3)
@@ -33,12 +33,5 @@ struct ContentView: View {
         }
         
 
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-            
     }
 }

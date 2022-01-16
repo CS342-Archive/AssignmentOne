@@ -5,7 +5,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TracyCai: View {
     @State var funFact: String = ""
     var body: some View {
         VStack{
@@ -32,11 +32,5 @@ struct ContentView: View {
                 .font(.system(size: 12))
                 .padding()
         }
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }

@@ -11,6 +11,7 @@ struct ContentView: View {
     
     var submissions: [(name: String, view: AnyView)] {
         [
+            ("Gaurav Luthria", AnyView(GauravLuthria())),
             ("Megan Worrel", AnyView(MeganWorrel()))
         ].sorted(by: {$0.name < $1.name})
     }

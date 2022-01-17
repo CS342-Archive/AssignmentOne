@@ -11,6 +11,7 @@ struct ContentView: View {
     
     var submissions: [(name: String, view: AnyView)] {
         [
+            ("Hayden Hofmann", AnyView(HaydenHofmann())),
             ("Tracy Cai", AnyView(TracyCai())),
             ("Gaurav Luthria", AnyView(GauravLuthria())),
             ("Megan Worrel", AnyView(MeganWorrel()))

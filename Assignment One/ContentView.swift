@@ -7,7 +7,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack() {
+        VStack(alignment: .leading) {
             Text("Lavender Chen")
                 .bold()
                 .font(.title)

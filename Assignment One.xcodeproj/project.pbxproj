@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AF78C9027953AFE00EEB6BB /* AlisaWang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF78C8F27953AFE00EEB6BB /* AlisaWang.swift */; };
 		271EAE242794B398004FA8C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271EAE232794B398004FA8C0 /* ContentView.swift */; };
 		2799C6872795A1F2006A7C7B /* HaydenHofmann.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2799C6862795A1F2006A7C7B /* HaydenHofmann.swift */; };
 		27D4D4E32794CEBE003243B2 /* GauravLuthria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D4D4E22794CEBE003243B2 /* GauravLuthria.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AF78C8F27953AFE00EEB6BB /* AlisaWang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlisaWang.swift; sourceTree = "<group>"; };
 		271EAE232794B398004FA8C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2799C6862795A1F2006A7C7B /* HaydenHofmann.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaydenHofmann.swift; sourceTree = "<group>"; };
 		27D4D4E22794CEBE003243B2 /* GauravLuthria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GauravLuthria.swift; sourceTree = "<group>"; };
@@ -82,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A1B59A627953A060082CF60 /* AlisaWang */ = {
+			isa = PBXGroup;
+			children = (
+				0AF78C8F27953AFE00EEB6BB /* AlisaWang.swift */,
+			);
+			path = AlisaWang;
+			sourceTree = "<group>";
+		};
 		271EAE202794B35A004FA8C0 /* MeganWorrel */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +149,7 @@
 		8EF8F73F25965AD1000850BF /* Assignment One */ = {
 			isa = PBXGroup;
 			children = (
+				0A1B59A627953A060082CF60 /* AlisaWang */,
 				272D95CA2795A4AA00522CFD /* TracyCai */,
 				2799C6882795A254006A7C7B /* HaydenHofmann */,
 				27D4D4E12794CEBE003243B2 /* GauravLuthria */,
@@ -313,6 +324,7 @@
 				8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */,
 				271EAE242794B398004FA8C0 /* ContentView.swift in Sources */,
 				A550ADD2278FE8CD00CBB756 /* PersonalImage.swift in Sources */,
+				0AF78C9027953AFE00EEB6BB /* AlisaWang.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

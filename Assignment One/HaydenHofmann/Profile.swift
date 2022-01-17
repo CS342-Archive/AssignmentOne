@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Profile: View {
     var body: some View {
-        Image("Profile_Pic").resizable()
+        Image("HaydenHofmann").resizable()
             .scaledToFit()
             .frame(width: 400, height: 200)
             .clipShape(Circle())

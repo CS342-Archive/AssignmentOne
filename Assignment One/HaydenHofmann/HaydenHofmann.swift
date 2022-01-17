@@ -5,7 +5,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HaydenHofmann: View {
     var body: some View {
         VStack {
         Profile()
@@ -21,8 +21,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct HaydenHofmann_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HaydenHofmann()
     }
 }

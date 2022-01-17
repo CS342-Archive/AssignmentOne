@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27F29A742794D06B00CB8AD1 /* TracyCai.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F29A732794D06B00CB8AD1 /* TracyCai.swift */; };
 		271EAE242794B398004FA8C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271EAE232794B398004FA8C0 /* ContentView.swift */; };
 		27D4D4E32794CEBE003243B2 /* GauravLuthria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D4D4E22794CEBE003243B2 /* GauravLuthria.swift */; };
+		27F29A742794D06B00CB8AD1 /* TracyCai.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F29A732794D06B00CB8AD1 /* TracyCai.swift */; };
+		8E55A38B2795F17E001D4007 /* RonitJain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E55A38A2795F17E001D4007 /* RonitJain.swift */; };
 		8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F74025965AD1000850BF /* Assignment_OneApp.swift */; };
 		8EF8F74325965AD1000850BF /* MeganWorrel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F74225965AD1000850BF /* MeganWorrel.swift */; };
 		8EF8F74525965AD4000850BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF8F74425965AD4000850BF /* Assets.xcassets */; };
@@ -37,9 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		27F29A732794D06B00CB8AD1 /* TracyCai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracyCai.swift; sourceTree = "<group>"; };
 		271EAE232794B398004FA8C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		27D4D4E22794CEBE003243B2 /* GauravLuthria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GauravLuthria.swift; sourceTree = "<group>"; };
+		27F29A732794D06B00CB8AD1 /* TracyCai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracyCai.swift; sourceTree = "<group>"; };
+		8E55A38A2795F17E001D4007 /* RonitJain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RonitJain.swift; sourceTree = "<group>"; };
 		8EF8F73D25965AD1000850BF /* Assignment One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment One.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF8F74025965AD1000850BF /* Assignment_OneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_OneApp.swift; sourceTree = "<group>"; };
 		8EF8F74225965AD1000850BF /* MeganWorrel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeganWorrel.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 		8EF8F73F25965AD1000850BF /* Assignment One */ = {
 			isa = PBXGroup;
 			children = (
+				8E55A38A2795F17E001D4007 /* RonitJain.swift */,
 				27D4D4E12794CEBE003243B2 /* GauravLuthria */,
 				271EAE202794B35A004FA8C0 /* MeganWorrel */,
 				8EF8F74025965AD1000850BF /* Assignment_OneApp.swift */,
@@ -289,6 +292,7 @@
 			files = (
 				27F29A742794D06B00CB8AD1 /* TracyCai.swift in Sources */,
 				27D4D4E32794CEBE003243B2 /* GauravLuthria.swift in Sources */,
+				8E55A38B2795F17E001D4007 /* RonitJain.swift in Sources */,
 				8EF8F74325965AD1000850BF /* MeganWorrel.swift in Sources */,
 				8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */,
 				271EAE242794B398004FA8C0 /* ContentView.swift in Sources */,
@@ -451,7 +455,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Assignment One/Preview Content\"";
-				DEVELOPMENT_TEAM = CQRZ4E7K9U;
+				DEVELOPMENT_TEAM = NS5248TK92;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Assignment One/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -473,7 +477,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Assignment One/Preview Content\"";
-				DEVELOPMENT_TEAM = CQRZ4E7K9U;
+				DEVELOPMENT_TEAM = NS5248TK92;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Assignment One/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

@@ -13,6 +13,7 @@ struct ContentView: View {
         [
             ("Tracy Cai", AnyView(TracyCai())),
             ("Gaurav Luthria", AnyView(GauravLuthria())),
+            ("Ronit Jain", AnyView(RonitJain())),
             ("Megan Worrel", AnyView(MeganWorrel()))
         ].sorted(by: {$0.name < $1.name})
     }

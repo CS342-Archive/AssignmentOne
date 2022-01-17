@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0AF78C9027953AFE00EEB6BB /* AlisaWang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF78C8F27953AFE00EEB6BB /* AlisaWang.swift */; };
 		271EAE242794B398004FA8C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271EAE232794B398004FA8C0 /* ContentView.swift */; };
+		2723C0B62795B32D00F4B40A /* ExampleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2723C0B52795B32D00F4B40A /* ExampleCard.swift */; };
 		2799C6872795A1F2006A7C7B /* HaydenHofmann.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2799C6862795A1F2006A7C7B /* HaydenHofmann.swift */; };
 		27D4D4E32794CEBE003243B2 /* GauravLuthria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D4D4E22794CEBE003243B2 /* GauravLuthria.swift */; };
 		27F29A742794D06B00CB8AD1 /* TracyCai.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F29A732794D06B00CB8AD1 /* TracyCai.swift */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		0AF78C8F27953AFE00EEB6BB /* AlisaWang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlisaWang.swift; sourceTree = "<group>"; };
 		271EAE232794B398004FA8C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2723C0B52795B32D00F4B40A /* ExampleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCard.swift; sourceTree = "<group>"; };
 		2799C6862795A1F2006A7C7B /* HaydenHofmann.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaydenHofmann.swift; sourceTree = "<group>"; };
 		27D4D4E22794CEBE003243B2 /* GauravLuthria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GauravLuthria.swift; sourceTree = "<group>"; };
 		27F29A732794D06B00CB8AD1 /* TracyCai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracyCai.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				271EAE202794B35A004FA8C0 /* MeganWorrel */,
 				8EF8F74025965AD1000850BF /* Assignment_OneApp.swift */,
 				271EAE232794B398004FA8C0 /* ContentView.swift */,
+				2723C0B52795B32D00F4B40A /* ExampleCard.swift */,
 				8EF8F74425965AD4000850BF /* Assets.xcassets */,
 				8EF8F74625965AD4000850BF /* Preview Content */,
 			);
@@ -320,6 +323,7 @@
 				2799C6872795A1F2006A7C7B /* HaydenHofmann.swift in Sources */,
 				27F29A742794D06B00CB8AD1 /* TracyCai.swift in Sources */,
 				27D4D4E32794CEBE003243B2 /* GauravLuthria.swift in Sources */,
+				2723C0B62795B32D00F4B40A /* ExampleCard.swift in Sources */,
 				8EF8F74325965AD1000850BF /* MeganWorrel.swift in Sources */,
 				8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */,
 				271EAE242794B398004FA8C0 /* ContentView.swift in Sources */,

@@ -34,3 +34,9 @@ struct TracyCai: View {
         }
     }
 }
+
+struct TracyCai_Previews: PreviewProvider {
+    static var previews: some View {
+        TracyCai()
+    }
+}

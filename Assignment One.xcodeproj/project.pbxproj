@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27F29A742794D06B00CB8AD1 /* TracyCai.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F29A732794D06B00CB8AD1 /* TracyCai.swift */; };
 		271EAE242794B398004FA8C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271EAE232794B398004FA8C0 /* ContentView.swift */; };
 		27D4D4E32794CEBE003243B2 /* GauravLuthria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D4D4E22794CEBE003243B2 /* GauravLuthria.swift */; };
+		27F29A742794D06B00CB8AD1 /* TracyCai.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F29A732794D06B00CB8AD1 /* TracyCai.swift */; };
 		8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F74025965AD1000850BF /* Assignment_OneApp.swift */; };
 		8EF8F74325965AD1000850BF /* MeganWorrel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F74225965AD1000850BF /* MeganWorrel.swift */; };
 		8EF8F74525965AD4000850BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF8F74425965AD4000850BF /* Assets.xcassets */; };
 		8EF8F74825965AD4000850BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF8F74725965AD4000850BF /* Preview Assets.xcassets */; };
 		8EF8F75325965AD4000850BF /* Assignment_OneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F75225965AD4000850BF /* Assignment_OneTests.swift */; };
 		8EF8F75E25965AD4000850BF /* Assignment_OneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F75D25965AD4000850BF /* Assignment_OneUITests.swift */; };
+		9AA7F441279623DE000DF786 /* SavithaSrinivasan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA7F440279623DE000DF786 /* SavithaSrinivasan.swift */; };
 		A550ADD2278FE8CD00CBB756 /* PersonalImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A550ADD1278FE8CD00CBB756 /* PersonalImage.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,9 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		27F29A732794D06B00CB8AD1 /* TracyCai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracyCai.swift; sourceTree = "<group>"; };
 		271EAE232794B398004FA8C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		27D4D4E22794CEBE003243B2 /* GauravLuthria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GauravLuthria.swift; sourceTree = "<group>"; };
+		27F29A732794D06B00CB8AD1 /* TracyCai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracyCai.swift; sourceTree = "<group>"; };
 		8EF8F73D25965AD1000850BF /* Assignment One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment One.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF8F74025965AD1000850BF /* Assignment_OneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_OneApp.swift; sourceTree = "<group>"; };
 		8EF8F74225965AD1000850BF /* MeganWorrel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeganWorrel.swift; sourceTree = "<group>"; };
@@ -52,6 +53,7 @@
 		8EF8F75925965AD4000850BF /* Assignment OneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment OneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF8F75D25965AD4000850BF /* Assignment_OneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_OneUITests.swift; sourceTree = "<group>"; };
 		8EF8F75F25965AD4000850BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AA7F440279623DE000DF786 /* SavithaSrinivasan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavithaSrinivasan.swift; sourceTree = "<group>"; };
 		A550ADD1278FE8CD00CBB756 /* PersonalImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +130,7 @@
 				8EF8F74925965AD4000850BF /* Info.plist */,
 				8EF8F74625965AD4000850BF /* Preview Content */,
 				271EAE232794B398004FA8C0 /* ContentView.swift */,
+				9AA7F442279623F8000DF786 /* SavithaSrinivasan */,
 			);
 			path = "Assignment One";
 			sourceTree = "<group>";
@@ -156,6 +159,14 @@
 				8EF8F75F25965AD4000850BF /* Info.plist */,
 			);
 			path = "Assignment OneUITests";
+			sourceTree = "<group>";
+		};
+		9AA7F442279623F8000DF786 /* SavithaSrinivasan */ = {
+			isa = PBXGroup;
+			children = (
+				9AA7F440279623DE000DF786 /* SavithaSrinivasan.swift */,
+			);
+			path = SavithaSrinivasan;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +303,7 @@
 				8EF8F74325965AD1000850BF /* MeganWorrel.swift in Sources */,
 				8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */,
 				271EAE242794B398004FA8C0 /* ContentView.swift in Sources */,
+				9AA7F441279623DE000DF786 /* SavithaSrinivasan.swift in Sources */,
 				A550ADD2278FE8CD00CBB756 /* PersonalImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

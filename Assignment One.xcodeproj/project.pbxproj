@@ -13,6 +13,11 @@
 		8EF8F74825965AD4000850BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF8F74725965AD4000850BF /* Preview Assets.xcassets */; };
 		8EF8F75325965AD4000850BF /* Assignment_OneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F75225965AD4000850BF /* Assignment_OneTests.swift */; };
 		8EF8F75E25965AD4000850BF /* Assignment_OneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F75D25965AD4000850BF /* Assignment_OneUITests.swift */; };
+		9502D7EB278E8DAC00A131D8 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9502D7EA278E8DAC00A131D8 /* CircleImage.swift */; };
+		9502D7ED278EAEB900A131D8 /* LongFormText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9502D7EC278EAEB900A131D8 /* LongFormText.swift */; };
+		9584D0872790DA46002E7E1F /* HighlightReel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9584D0862790DA46002E7E1F /* HighlightReel.swift */; };
+		9584D08927913F52002E7E1F /* highlights.json in Resources */ = {isa = PBXBuildFile; fileRef = 9584D08827913F52002E7E1F /* highlights.json */; };
+		9584D08B2791523D002E7E1F /* ContactMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9584D08A2791523D002E7E1F /* ContactMeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		8EF8F75925965AD4000850BF /* Assignment OneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment OneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF8F75D25965AD4000850BF /* Assignment_OneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_OneUITests.swift; sourceTree = "<group>"; };
 		8EF8F75F25965AD4000850BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9502D7EA278E8DAC00A131D8 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		9502D7EC278EAEB900A131D8 /* LongFormText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongFormText.swift; sourceTree = "<group>"; };
+		9584D0862790DA46002E7E1F /* HighlightReel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightReel.swift; sourceTree = "<group>"; };
+		9584D08827913F52002E7E1F /* highlights.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = highlights.json; path = ../../../../../Downloads/highlights.json; sourceTree = "<group>"; };
+		9584D08A2791523D002E7E1F /* ContactMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactMeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +105,13 @@
 		8EF8F73F25965AD1000850BF /* Assignment One */ = {
 			isa = PBXGroup;
 			children = (
+				9584D08827913F52002E7E1F /* highlights.json */,
 				8EF8F74025965AD1000850BF /* Assignment_OneApp.swift */,
 				8EF8F74225965AD1000850BF /* ContentView.swift */,
+				9584D08A2791523D002E7E1F /* ContactMeView.swift */,
+				9584D0862790DA46002E7E1F /* HighlightReel.swift */,
+				9502D7EA278E8DAC00A131D8 /* CircleImage.swift */,
+				9502D7EC278EAEB900A131D8 /* LongFormText.swift */,
 				8EF8F74425965AD4000850BF /* Assets.xcassets */,
 				8EF8F74925965AD4000850BF /* Info.plist */,
 				8EF8F74625965AD4000850BF /* Preview Content */,
@@ -234,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EF8F74825965AD4000850BF /* Preview Assets.xcassets in Resources */,
+				9584D08927913F52002E7E1F /* highlights.json in Resources */,
 				8EF8F74525965AD4000850BF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +277,10 @@
 			files = (
 				8EF8F74325965AD1000850BF /* ContentView.swift in Sources */,
 				8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */,
+				9502D7ED278EAEB900A131D8 /* LongFormText.swift in Sources */,
+				9502D7EB278E8DAC00A131D8 /* CircleImage.swift in Sources */,
+				9584D0872790DA46002E7E1F /* HighlightReel.swift in Sources */,
+				9584D08B2791523D002E7E1F /* ContactMeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.stanford.cs342.Assignment-One";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,7 +472,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.stanford.cs342.Assignment-One";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

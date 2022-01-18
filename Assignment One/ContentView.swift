@@ -11,10 +11,12 @@ struct ContentView: View {
     
     var submissions: [(name: String, view: AnyView)] {
         [
+            ("Hayden Hofmann", AnyView(HaydenHofmann())),
             ("Tracy Cai", AnyView(TracyCai())),
             ("Gaurav Luthria", AnyView(GauravLuthria())),
             ("Megan Worrel", AnyView(MeganWorrel())),
-            ("Savitha Srinivasan", AnyView(SavithaSrinivasan()))
+            ("Savitha Srinivasan", AnyView(SavithaSrinivasan())),
+            ("Alisa Wang", AnyView(AlisaWang()))
         ].sorted(by: {$0.name < $1.name})
     }
     

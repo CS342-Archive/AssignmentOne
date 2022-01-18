@@ -19,6 +19,7 @@
 		8EF8F74825965AD4000850BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF8F74725965AD4000850BF /* Preview Assets.xcassets */; };
 		8EF8F75325965AD4000850BF /* Assignment_OneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F75225965AD4000850BF /* Assignment_OneTests.swift */; };
 		8EF8F75E25965AD4000850BF /* Assignment_OneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F75D25965AD4000850BF /* Assignment_OneUITests.swift */; };
+		9AA7F441279623DE000DF786 /* SavithaSrinivasan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA7F440279623DE000DF786 /* SavithaSrinivasan.swift */; };
 		A550ADD2278FE8CD00CBB756 /* PersonalImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A550ADD1278FE8CD00CBB756 /* PersonalImage.swift */; };
 		DF58053B278CBCA200F7F57E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF58053A278CBCA200F7F57E /* Profile.swift */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,7 @@
 		8EF8F75925965AD4000850BF /* Assignment OneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment OneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF8F75D25965AD4000850BF /* Assignment_OneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_OneUITests.swift; sourceTree = "<group>"; };
 		8EF8F75F25965AD4000850BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AA7F440279623DE000DF786 /* SavithaSrinivasan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavithaSrinivasan.swift; sourceTree = "<group>"; };
 		A550ADD1278FE8CD00CBB756 /* PersonalImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalImage.swift; sourceTree = "<group>"; };
 		DF58053A278CBCA200F7F57E /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,11 +158,12 @@
 				2799C6882795A254006A7C7B /* HaydenHofmann */,
 				27D4D4E12794CEBE003243B2 /* GauravLuthria */,
 				271EAE202794B35A004FA8C0 /* MeganWorrel */,
+				9AA7F442279623F8000DF786 /* SavithaSrinivasan */,
 				8EF8F74025965AD1000850BF /* Assignment_OneApp.swift */,
-				271EAE232794B398004FA8C0 /* ContentView.swift */,
 				2723C0B52795B32D00F4B40A /* ExampleCard.swift */,
 				8EF8F74425965AD4000850BF /* Assets.xcassets */,
 				8EF8F74625965AD4000850BF /* Preview Content */,
+				271EAE232794B398004FA8C0 /* ContentView.swift */,
 			);
 			path = "Assignment One";
 			sourceTree = "<group>";
@@ -188,6 +191,14 @@
 				8EF8F75F25965AD4000850BF /* Info.plist */,
 			);
 			path = "Assignment OneUITests";
+			sourceTree = "<group>";
+		};
+		9AA7F442279623F8000DF786 /* SavithaSrinivasan */ = {
+			isa = PBXGroup;
+			children = (
+				9AA7F440279623DE000DF786 /* SavithaSrinivasan.swift */,
+			);
+			path = SavithaSrinivasan;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,6 +338,7 @@
 				8EF8F74325965AD1000850BF /* MeganWorrel.swift in Sources */,
 				8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */,
 				271EAE242794B398004FA8C0 /* ContentView.swift in Sources */,
+				9AA7F441279623DE000DF786 /* SavithaSrinivasan.swift in Sources */,
 				A550ADD2278FE8CD00CBB756 /* PersonalImage.swift in Sources */,
 				0AF78C9027953AFE00EEB6BB /* AlisaWang.swift in Sources */,
 			);

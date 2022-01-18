@@ -5,7 +5,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct LauraSchutz: View {
     var body: some View {
         
         let gradient = Gradient(colors: [.white, .pink])
@@ -61,8 +61,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct LauraSchutz_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LauraSchutz()
     }
 }

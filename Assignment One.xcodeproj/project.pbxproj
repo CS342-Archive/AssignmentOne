@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27FF2A6D279679AC0037B17F /* TaylorLallas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FF2A6C279679AC0037B17F /* TaylorLallas.swift */; };
 		8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F74025965AD1000850BF /* Assignment_OneApp.swift */; };
-		8EF8F74325965AD1000850BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F74225965AD1000850BF /* ContentView.swift */; };
 		8EF8F74525965AD4000850BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF8F74425965AD4000850BF /* Assets.xcassets */; };
 		8EF8F74825965AD4000850BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF8F74725965AD4000850BF /* Preview Assets.xcassets */; };
 		8EF8F75325965AD4000850BF /* Assignment_OneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F75225965AD4000850BF /* Assignment_OneTests.swift */; };
@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27FF2A6C279679AC0037B17F /* TaylorLallas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaylorLallas.swift; sourceTree = "<group>"; };
 		8EF8F73D25965AD1000850BF /* Assignment One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment One.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF8F74025965AD1000850BF /* Assignment_OneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_OneApp.swift; sourceTree = "<group>"; };
-		8EF8F74225965AD1000850BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8EF8F74425965AD4000850BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EF8F74725965AD4000850BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8EF8F74925965AD4000850BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				8EF8F74025965AD1000850BF /* Assignment_OneApp.swift */,
-				8EF8F74225965AD1000850BF /* ContentView.swift */,
+				27FF2A6C279679AC0037B17F /* TaylorLallas.swift */,
 				9584D08A2791523D002E7E1F /* ContactMeView.swift */,
 				9584D0862790DA46002E7E1F /* HighlightReel.swift */,
 				9502D7EA278E8DAC00A131D8 /* CircleImage.swift */,
@@ -271,7 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EF8F74325965AD1000850BF /* ContentView.swift in Sources */,
+				27FF2A6D279679AC0037B17F /* TaylorLallas.swift in Sources */,
 				8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */,
 				9502D7ED278EAEB900A131D8 /* LongFormText.swift in Sources */,
 				9502D7EB278E8DAC00A131D8 /* CircleImage.swift in Sources */,

@@ -5,8 +5,7 @@
 
 import SwiftUI
 
-
-struct ContentView: View {
+struct TaylorLallas: View {
     var body: some View {
     
         VStack {
@@ -39,9 +38,9 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct TaylorLallas_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TaylorLallas()
     }
 }
 
@@ -56,3 +55,4 @@ extension Color {
     )
   }
 }
+

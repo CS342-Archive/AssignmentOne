@@ -14,6 +14,7 @@ struct ContentView: View {
             ("Hayden Hofmann", AnyView(HaydenHofmann())),
             ("Tracy Cai", AnyView(TracyCai())),
             ("Gaurav Luthria", AnyView(GauravLuthria())),
+            ("Ronit Jain", AnyView(RonitJain())),
             ("Megan Worrel", AnyView(MeganWorrel())),
             ("Savitha Srinivasan", AnyView(SavithaSrinivasan())),
             ("Alisa Wang", AnyView(AlisaWang()))

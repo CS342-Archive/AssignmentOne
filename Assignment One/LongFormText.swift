@@ -9,7 +9,12 @@ import SwiftUI
 
 struct LongFormText: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack (alignment: .leading) {
+            Text("Hey, I'm Taylor!")
+                .font(.headline)
+            Text("I'm a coterminal master's student in Computer Science from Los Angeles, California. My concentration is in Human-Computer Interaction. During my 4 years of undergrad, I was a member of the Stanford Women's Tennis team. In my free time, you can find me spending time outdoors, baking, and reading.")
+        }.padding(.leading)
+            .padding(.trailing)
     }
 }
 

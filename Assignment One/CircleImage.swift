@@ -6,10 +6,17 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct CircleImage: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            Image("profileSmall")
+            .resizable()
+            .scaledToFit()
+            .frame(width: 125)
+                .clipShape(Circle())
+                .shadow(radius: 5)
+                
     }
 }
 

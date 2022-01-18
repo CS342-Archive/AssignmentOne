@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27FF2A6D279679AC0037B17F /* TaylorLallas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FF2A6C279679AC0037B17F /* TaylorLallas.swift */; };
 		0AF78C9027953AFE00EEB6BB /* AlisaWang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF78C8F27953AFE00EEB6BB /* AlisaWang.swift */; };
 		271EAE242794B398004FA8C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271EAE232794B398004FA8C0 /* ContentView.swift */; };
 		2723C0B62795B32D00F4B40A /* ExampleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2723C0B52795B32D00F4B40A /* ExampleCard.swift */; };
@@ -15,6 +14,7 @@
 		27C58ED827966C3300C930FE /* LauraSchutz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C58ED727966C3300C930FE /* LauraSchutz.swift */; };
 		27D4D4E32794CEBE003243B2 /* GauravLuthria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D4D4E22794CEBE003243B2 /* GauravLuthria.swift */; };
 		27F29A742794D06B00CB8AD1 /* TracyCai.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F29A732794D06B00CB8AD1 /* TracyCai.swift */; };
+		27FF2A6D279679AC0037B17F /* TaylorLallas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FF2A6C279679AC0037B17F /* TaylorLallas.swift */; };
 		8E55A38B2795F17E001D4007 /* RonitJain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E55A38A2795F17E001D4007 /* RonitJain.swift */; };
 		8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F74025965AD1000850BF /* Assignment_OneApp.swift */; };
 		8EF8F74325965AD1000850BF /* MeganWorrel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F74225965AD1000850BF /* MeganWorrel.swift */; };
@@ -49,7 +49,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		27FF2A6C279679AC0037B17F /* TaylorLallas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaylorLallas.swift; sourceTree = "<group>"; };
 		0AF78C8F27953AFE00EEB6BB /* AlisaWang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlisaWang.swift; sourceTree = "<group>"; };
 		271EAE232794B398004FA8C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2723C0B52795B32D00F4B40A /* ExampleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCard.swift; sourceTree = "<group>"; };
@@ -57,6 +56,7 @@
 		27C58ED727966C3300C930FE /* LauraSchutz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauraSchutz.swift; sourceTree = "<group>"; };
 		27D4D4E22794CEBE003243B2 /* GauravLuthria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GauravLuthria.swift; sourceTree = "<group>"; };
 		27F29A732794D06B00CB8AD1 /* TracyCai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracyCai.swift; sourceTree = "<group>"; };
+		27FF2A6C279679AC0037B17F /* TaylorLallas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaylorLallas.swift; sourceTree = "<group>"; };
 		8E55A38A2795F17E001D4007 /* RonitJain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RonitJain.swift; sourceTree = "<group>"; };
 		8EF8F73D25965AD1000850BF /* Assignment One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment One.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF8F74025965AD1000850BF /* Assignment_OneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_OneApp.swift; sourceTree = "<group>"; };
@@ -160,6 +160,18 @@
 			path = RonitJain;
 			sourceTree = "<group>";
 		};
+		27FF2A6E27967A700037B17F /* TaylorLallas */ = {
+			isa = PBXGroup;
+			children = (
+				9584D0862790DA46002E7E1F /* HighlightReel.swift */,
+				9584D08A2791523D002E7E1F /* ContactMeView.swift */,
+				9502D7EA278E8DAC00A131D8 /* CircleImage.swift */,
+				9502D7EC278EAEB900A131D8 /* LongFormText.swift */,
+				27FF2A6C279679AC0037B17F /* TaylorLallas.swift */,
+			);
+			path = TaylorLallas;
+			sourceTree = "<group>";
+		};
 		8EF8F73425965AD1000850BF = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +195,7 @@
 		8EF8F73F25965AD1000850BF /* Assignment One */ = {
 			isa = PBXGroup;
 			children = (
+				27FF2A6E27967A700037B17F /* TaylorLallas */,
 				27C58ED927966D6700C930FE /* LauraSchutz */,
 				27E2D07B279656BE00B39639 /* RonitJain */,
 				0A1B59A627953A060082CF60 /* AlisaWang */,
@@ -192,11 +205,6 @@
 				271EAE202794B35A004FA8C0 /* MeganWorrel */,
 				9AA7F442279623F8000DF786 /* SavithaSrinivasan */,
 				8EF8F74025965AD1000850BF /* Assignment_OneApp.swift */,
-				27FF2A6C279679AC0037B17F /* TaylorLallas.swift */,
-				9584D08A2791523D002E7E1F /* ContactMeView.swift */,
-				9584D0862790DA46002E7E1F /* HighlightReel.swift */,
-				9502D7EA278E8DAC00A131D8 /* CircleImage.swift */,
-				9502D7EC278EAEB900A131D8 /* LongFormText.swift */,
 				271EAE232794B398004FA8C0 /* ContentView.swift */,
 				2723C0B52795B32D00F4B40A /* ExampleCard.swift */,
 				8EF8F74425965AD4000850BF /* Assets.xcassets */,

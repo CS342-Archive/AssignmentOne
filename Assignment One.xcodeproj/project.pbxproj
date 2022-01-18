@@ -11,6 +11,7 @@
 		271EAE242794B398004FA8C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271EAE232794B398004FA8C0 /* ContentView.swift */; };
 		2723C0B62795B32D00F4B40A /* ExampleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2723C0B52795B32D00F4B40A /* ExampleCard.swift */; };
 		2799C6872795A1F2006A7C7B /* HaydenHofmann.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2799C6862795A1F2006A7C7B /* HaydenHofmann.swift */; };
+		27C58ED827966C3300C930FE /* LauraSchutz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C58ED727966C3300C930FE /* LauraSchutz.swift */; };
 		27D4D4E32794CEBE003243B2 /* GauravLuthria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D4D4E22794CEBE003243B2 /* GauravLuthria.swift */; };
 		27F29A742794D06B00CB8AD1 /* TracyCai.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F29A732794D06B00CB8AD1 /* TracyCai.swift */; };
 		8E55A38B2795F17E001D4007 /* RonitJain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E55A38A2795F17E001D4007 /* RonitJain.swift */; };
@@ -47,6 +48,7 @@
 		271EAE232794B398004FA8C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2723C0B52795B32D00F4B40A /* ExampleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCard.swift; sourceTree = "<group>"; };
 		2799C6862795A1F2006A7C7B /* HaydenHofmann.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaydenHofmann.swift; sourceTree = "<group>"; };
+		27C58ED727966C3300C930FE /* LauraSchutz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauraSchutz.swift; sourceTree = "<group>"; };
 		27D4D4E22794CEBE003243B2 /* GauravLuthria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GauravLuthria.swift; sourceTree = "<group>"; };
 		27F29A732794D06B00CB8AD1 /* TracyCai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracyCai.swift; sourceTree = "<group>"; };
 		8E55A38A2795F17E001D4007 /* RonitJain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RonitJain.swift; sourceTree = "<group>"; };
@@ -124,6 +126,14 @@
 			path = HaydenHofmann;
 			sourceTree = "<group>";
 		};
+		27C58ED927966D6700C930FE /* LauraSchutz */ = {
+			isa = PBXGroup;
+			children = (
+				27C58ED727966C3300C930FE /* LauraSchutz.swift */,
+			);
+			path = LauraSchutz;
+			sourceTree = "<group>";
+		};
 		27D4D4E12794CEBE003243B2 /* GauravLuthria */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +173,7 @@
 		8EF8F73F25965AD1000850BF /* Assignment One */ = {
 			isa = PBXGroup;
 			children = (
+				27C58ED927966D6700C930FE /* LauraSchutz */,
 				27E2D07B279656BE00B39639 /* RonitJain */,
 				0A1B59A627953A060082CF60 /* AlisaWang */,
 				272D95CA2795A4AA00522CFD /* TracyCai */,
@@ -171,10 +182,10 @@
 				271EAE202794B35A004FA8C0 /* MeganWorrel */,
 				9AA7F442279623F8000DF786 /* SavithaSrinivasan */,
 				8EF8F74025965AD1000850BF /* Assignment_OneApp.swift */,
+				271EAE232794B398004FA8C0 /* ContentView.swift */,
 				2723C0B52795B32D00F4B40A /* ExampleCard.swift */,
 				8EF8F74425965AD4000850BF /* Assets.xcassets */,
 				8EF8F74625965AD4000850BF /* Preview Content */,
-				271EAE232794B398004FA8C0 /* ContentView.swift */,
 			);
 			path = "Assignment One";
 			sourceTree = "<group>";
@@ -341,6 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27C58ED827966C3300C930FE /* LauraSchutz.swift in Sources */,
 				DF58053B278CBCA200F7F57E /* Profile.swift in Sources */,
 				2799C6872795A1F2006A7C7B /* HaydenHofmann.swift in Sources */,
 				27F29A742794D06B00CB8AD1 /* TracyCai.swift in Sources */,
@@ -519,7 +531,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.stanford.cs342.Assignment-One";
+				PRODUCT_BUNDLE_IDENTIFIER = cs324;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -541,7 +553,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.stanford.cs342.Assignment-One";
+				PRODUCT_BUNDLE_IDENTIFIER = cs324;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -554,7 +566,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CQRZ4E7K9U;
+				DEVELOPMENT_TEAM = 9J8J9PDSXS;
 				INFOPLIST_FILE = "Assignment OneTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -576,7 +588,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CQRZ4E7K9U;
+				DEVELOPMENT_TEAM = 9J8J9PDSXS;
 				INFOPLIST_FILE = "Assignment OneTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -597,7 +609,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CQRZ4E7K9U;
+				DEVELOPMENT_TEAM = 9J8J9PDSXS;
 				INFOPLIST_FILE = "Assignment OneUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -617,7 +629,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CQRZ4E7K9U;
+				DEVELOPMENT_TEAM = 9J8J9PDSXS;
 				INFOPLIST_FILE = "Assignment OneUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

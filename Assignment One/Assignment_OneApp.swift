@@ -5,11 +5,13 @@
 
 import SwiftUI
 
+
 @main
 struct Assignment_OneApp: App {
-    var body: some Scene {
+   var body: some Scene {
         WindowGroup {
             ContentView()
         }
     }
 }
+

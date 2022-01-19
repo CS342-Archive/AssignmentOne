@@ -29,10 +29,10 @@
 		9584D08B2791523D002E7E1F /* ContactMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9584D08A2791523D002E7E1F /* ContactMeView.swift */; };
 		9AA7F441279623DE000DF786 /* SavithaSrinivasan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA7F440279623DE000DF786 /* SavithaSrinivasan.swift */; };
 		A550ADD2278FE8CD00CBB756 /* PersonalImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A550ADD1278FE8CD00CBB756 /* PersonalImage.swift */; };
-		C36B3EF827969AED0010EB3F /* EvieChen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B3EF727969AED0010EB3F /* EvieChen.swift */; };
 		A88F0EEE2798C06700F013DB /* LinaFang.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F0EED2798C06700F013DB /* LinaFang.swift */; };
 		A88F0EF42798C91900F013DB /* LavenderChen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F0EF32798C91900F013DB /* LavenderChen.swift */; };
 		A88F0EFB2798CC5D00F013DB /* SharonCheng.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F0EFA2798CC5D00F013DB /* SharonCheng.swift */; };
+		C36B3EF827969AED0010EB3F /* EvieChen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B3EF727969AED0010EB3F /* EvieChen.swift */; };
 		DF58053B278CBCA200F7F57E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF58053A278CBCA200F7F57E /* Profile.swift */; };
 /* End PBXBuildFile section */
 
@@ -80,10 +80,10 @@
 		9584D08A2791523D002E7E1F /* ContactMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactMeView.swift; sourceTree = "<group>"; };
 		9AA7F440279623DE000DF786 /* SavithaSrinivasan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavithaSrinivasan.swift; sourceTree = "<group>"; };
 		A550ADD1278FE8CD00CBB756 /* PersonalImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalImage.swift; sourceTree = "<group>"; };
-		C36B3EF727969AED0010EB3F /* EvieChen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvieChen.swift; sourceTree = "<group>"; };
 		A88F0EED2798C06700F013DB /* LinaFang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinaFang.swift; sourceTree = "<group>"; };
 		A88F0EF32798C91900F013DB /* LavenderChen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LavenderChen.swift; sourceTree = "<group>"; };
 		A88F0EFA2798CC5D00F013DB /* SharonCheng.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharonCheng.swift; sourceTree = "<group>"; };
+		C36B3EF727969AED0010EB3F /* EvieChen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvieChen.swift; sourceTree = "<group>"; };
 		DF58053A278CBCA200F7F57E /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 		8EF8F73425965AD1000850BF = {
 			isa = PBXGroup;
 			children = (
-				C36B3EF727969AED0010EB3F /* EvieChen.swift */,
 				8EF8F73F25965AD1000850BF /* Assignment One */,
 				8EF8F75125965AD4000850BF /* Assignment OneTests */,
 				8EF8F75C25965AD4000850BF /* Assignment OneUITests */,
@@ -214,6 +213,7 @@
 		8EF8F73F25965AD1000850BF /* Assignment One */ = {
 			isa = PBXGroup;
 			children = (
+				A88F0EFC2798D07700F013DB /* EvieChen */,
 				A88F0EF92798CC5D00F013DB /* SharonCheng */,
 				A88F0EF22798C90800F013DB /* LavenderChen */,
 				A88F0EEC2798C04200F013DB /* LinaFang */,
@@ -291,6 +291,14 @@
 				A88F0EFA2798CC5D00F013DB /* SharonCheng.swift */,
 			);
 			path = SharonCheng;
+			sourceTree = "<group>";
+		};
+		A88F0EFC2798D07700F013DB /* EvieChen */ = {
+			isa = PBXGroup;
+			children = (
+				C36B3EF727969AED0010EB3F /* EvieChen.swift */,
+			);
+			path = EvieChen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

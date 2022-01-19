@@ -13,6 +13,7 @@
 		8EF8F74825965AD4000850BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF8F74725965AD4000850BF /* Preview Assets.xcassets */; };
 		8EF8F75325965AD4000850BF /* Assignment_OneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F75225965AD4000850BF /* Assignment_OneTests.swift */; };
 		8EF8F75E25965AD4000850BF /* Assignment_OneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F75D25965AD4000850BF /* Assignment_OneUITests.swift */; };
+		AEE2BE8C279693D800A64266 /* TerresaEun.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE2BE8B279693D800A64266 /* TerresaEun.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		8EF8F75925965AD4000850BF /* Assignment OneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment OneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF8F75D25965AD4000850BF /* Assignment_OneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_OneUITests.swift; sourceTree = "<group>"; };
 		8EF8F75F25965AD4000850BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEE2BE8B279693D800A64266 /* TerresaEun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerresaEun.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		8EF8F73F25965AD1000850BF /* Assignment One */ = {
 			isa = PBXGroup;
 			children = (
+				AEE2BE8B279693D800A64266 /* TerresaEun.swift */,
 				8EF8F74025965AD1000850BF /* Assignment_OneApp.swift */,
 				8EF8F74225965AD1000850BF /* ContentView.swift */,
 				8EF8F74425965AD4000850BF /* Assets.xcassets */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EF8F74325965AD1000850BF /* ContentView.swift in Sources */,
+				AEE2BE8C279693D800A64266 /* TerresaEun.swift in Sources */,
 				8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,7 +423,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Assignment One/Preview Content\"";
-				DEVELOPMENT_TEAM = CQRZ4E7K9U;
+				DEVELOPMENT_TEAM = 8677GZV3AB;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Assignment One/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -441,7 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Assignment One/Preview Content\"";
-				DEVELOPMENT_TEAM = CQRZ4E7K9U;
+				DEVELOPMENT_TEAM = 8677GZV3AB;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Assignment One/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

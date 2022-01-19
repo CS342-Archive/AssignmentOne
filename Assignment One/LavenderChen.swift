@@ -1,11 +1,11 @@
 //
-//  ContentView.swift
+//  LavenderChen.swift
 //  Assignment One
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct LavenderChen: View {
     var body: some View {
         VStack() {
         Text("Lavender Chen".uppercased())
@@ -29,8 +29,8 @@ struct ContentView: View {
         .padding(.horizontal)
     }
 }
-struct ContentView_Previews: PreviewProvider {
+struct LavenderChen_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LavenderChen()
     }
 }

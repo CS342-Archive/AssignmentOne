@@ -8,7 +8,7 @@
 import SwiftUI
 import MapKit
 
-struct ContentView: View {
+struct Bereket: View {
     @State private var showGreeting = true
     @State private var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 14.1636, longitude: 38.8937), span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
 
@@ -39,8 +39,8 @@ struct ContentView: View {
 
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct Bereket_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Bereket()
     }
 }

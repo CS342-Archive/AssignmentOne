@@ -1,11 +1,11 @@
 //
-//  ContentView.swift
+//  SharonCheng.swift
 //  Assignment One
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct SharonCheng: View {
     var body: some View {
         NavigationView {
             VStack{
@@ -66,9 +66,9 @@ struct InterestView: View {
 }
 
 
-struct ContentView_Previews: PreviewProvider {
+struct SharonCheng_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        SharonCheng()
         InterestView()
     }
 }

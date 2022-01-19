@@ -552,10 +552,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Assignment One/Preview Content\"";
+<<<<<<< HEAD
 				DEVELOPMENT_TEAM = NS5248TK92;
+=======
+				DEVELOPMENT_TEAM = TD35394665;
+>>>>>>> ee3c412f192a24d8677ca0b23cc84f6d9634cf9c
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Assignment One/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -574,10 +578,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Assignment One/Preview Content\"";
+<<<<<<< HEAD
 				DEVELOPMENT_TEAM = NS5248TK92;
+=======
+				DEVELOPMENT_TEAM = TD35394665;
+>>>>>>> ee3c412f192a24d8677ca0b23cc84f6d9634cf9c
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Assignment One/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

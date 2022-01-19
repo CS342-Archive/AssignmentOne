@@ -15,6 +15,7 @@
 		27D4D4E32794CEBE003243B2 /* GauravLuthria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D4D4E22794CEBE003243B2 /* GauravLuthria.swift */; };
 		27F29A742794D06B00CB8AD1 /* TracyCai.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F29A732794D06B00CB8AD1 /* TracyCai.swift */; };
 		27FF2A6D279679AC0037B17F /* TaylorLallas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FF2A6C279679AC0037B17F /* TaylorLallas.swift */; };
+		33A487CB27969F6800019A82 /* BillZhu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A487CA27969F6800019A82 /* BillZhu.swift */; };
 		8E55A38B2795F17E001D4007 /* RonitJain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E55A38A2795F17E001D4007 /* RonitJain.swift */; };
 		8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F74025965AD1000850BF /* Assignment_OneApp.swift */; };
 		8EF8F74325965AD1000850BF /* MeganWorrel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F74225965AD1000850BF /* MeganWorrel.swift */; };
@@ -29,6 +30,9 @@
 		9AA7F441279623DE000DF786 /* SavithaSrinivasan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA7F440279623DE000DF786 /* SavithaSrinivasan.swift */; };
 		A550ADD2278FE8CD00CBB756 /* PersonalImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A550ADD1278FE8CD00CBB756 /* PersonalImage.swift */; };
 		C36B3EF827969AED0010EB3F /* EvieChen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B3EF727969AED0010EB3F /* EvieChen.swift */; };
+		A88F0EEE2798C06700F013DB /* LinaFang.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F0EED2798C06700F013DB /* LinaFang.swift */; };
+		A88F0EF42798C91900F013DB /* LavenderChen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F0EF32798C91900F013DB /* LavenderChen.swift */; };
+		A88F0EFB2798CC5D00F013DB /* SharonCheng.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F0EFA2798CC5D00F013DB /* SharonCheng.swift */; };
 		DF58053B278CBCA200F7F57E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF58053A278CBCA200F7F57E /* Profile.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +62,7 @@
 		27D4D4E22794CEBE003243B2 /* GauravLuthria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GauravLuthria.swift; sourceTree = "<group>"; };
 		27F29A732794D06B00CB8AD1 /* TracyCai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracyCai.swift; sourceTree = "<group>"; };
 		27FF2A6C279679AC0037B17F /* TaylorLallas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaylorLallas.swift; sourceTree = "<group>"; };
+		33A487CA27969F6800019A82 /* BillZhu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillZhu.swift; sourceTree = "<group>"; };
 		8E55A38A2795F17E001D4007 /* RonitJain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RonitJain.swift; sourceTree = "<group>"; };
 		8EF8F73D25965AD1000850BF /* Assignment One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment One.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF8F74025965AD1000850BF /* Assignment_OneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_OneApp.swift; sourceTree = "<group>"; };
@@ -76,6 +81,9 @@
 		9AA7F440279623DE000DF786 /* SavithaSrinivasan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavithaSrinivasan.swift; sourceTree = "<group>"; };
 		A550ADD1278FE8CD00CBB756 /* PersonalImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalImage.swift; sourceTree = "<group>"; };
 		C36B3EF727969AED0010EB3F /* EvieChen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvieChen.swift; sourceTree = "<group>"; };
+		A88F0EED2798C06700F013DB /* LinaFang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinaFang.swift; sourceTree = "<group>"; };
+		A88F0EF32798C91900F013DB /* LavenderChen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LavenderChen.swift; sourceTree = "<group>"; };
+		A88F0EFA2798CC5D00F013DB /* SharonCheng.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharonCheng.swift; sourceTree = "<group>"; };
 		DF58053A278CBCA200F7F57E /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -174,6 +182,14 @@
 			path = TaylorLallas;
 			sourceTree = "<group>";
 		};
+		33A487C927969F5C00019A82 /* BillZhu */ = {
+			isa = PBXGroup;
+			children = (
+				33A487CA27969F6800019A82 /* BillZhu.swift */,
+			);
+			path = BillZhu;
+			sourceTree = "<group>";
+		};
 		8EF8F73425965AD1000850BF = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +214,10 @@
 		8EF8F73F25965AD1000850BF /* Assignment One */ = {
 			isa = PBXGroup;
 			children = (
+				A88F0EF92798CC5D00F013DB /* SharonCheng */,
+				A88F0EF22798C90800F013DB /* LavenderChen */,
+				A88F0EEC2798C04200F013DB /* LinaFang */,
+				33A487C927969F5C00019A82 /* BillZhu */,
 				27FF2A6E27967A700037B17F /* TaylorLallas */,
 				27C58ED927966D6700C930FE /* LauraSchutz */,
 				27E2D07B279656BE00B39639 /* RonitJain */,
@@ -247,6 +267,30 @@
 				9AA7F440279623DE000DF786 /* SavithaSrinivasan.swift */,
 			);
 			path = SavithaSrinivasan;
+			sourceTree = "<group>";
+		};
+		A88F0EEC2798C04200F013DB /* LinaFang */ = {
+			isa = PBXGroup;
+			children = (
+				A88F0EED2798C06700F013DB /* LinaFang.swift */,
+			);
+			path = LinaFang;
+			sourceTree = "<group>";
+		};
+		A88F0EF22798C90800F013DB /* LavenderChen */ = {
+			isa = PBXGroup;
+			children = (
+				A88F0EF32798C91900F013DB /* LavenderChen.swift */,
+			);
+			path = LavenderChen;
+			sourceTree = "<group>";
+		};
+		A88F0EF92798CC5D00F013DB /* SharonCheng */ = {
+			isa = PBXGroup;
+			children = (
+				A88F0EFA2798CC5D00F013DB /* SharonCheng.swift */,
+			);
+			path = SharonCheng;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,13 +426,16 @@
 				27FF2A6D279679AC0037B17F /* TaylorLallas.swift in Sources */,
 				8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */,
 				9502D7ED278EAEB900A131D8 /* LongFormText.swift in Sources */,
+				A88F0EFB2798CC5D00F013DB /* SharonCheng.swift in Sources */,
 				9502D7EB278E8DAC00A131D8 /* CircleImage.swift in Sources */,
+				A88F0EF42798C91900F013DB /* LavenderChen.swift in Sources */,
 				9584D0872790DA46002E7E1F /* HighlightReel.swift in Sources */,
 				9584D08B2791523D002E7E1F /* ContactMeView.swift in Sources */,
 				27C58ED827966C3300C930FE /* LauraSchutz.swift in Sources */,
 				DF58053B278CBCA200F7F57E /* Profile.swift in Sources */,
 				2799C6872795A1F2006A7C7B /* HaydenHofmann.swift in Sources */,
 				27F29A742794D06B00CB8AD1 /* TracyCai.swift in Sources */,
+				33A487CB27969F6800019A82 /* BillZhu.swift in Sources */,
 				27D4D4E32794CEBE003243B2 /* GauravLuthria.swift in Sources */,
 				8E55A38B2795F17E001D4007 /* RonitJain.swift in Sources */,
 				2723C0B62795B32D00F4B40A /* ExampleCard.swift in Sources */,
@@ -396,6 +443,7 @@
 				8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */,
 				271EAE242794B398004FA8C0 /* ContentView.swift in Sources */,
 				9AA7F441279623DE000DF786 /* SavithaSrinivasan.swift in Sources */,
+				A88F0EEE2798C06700F013DB /* LinaFang.swift in Sources */,
 				A550ADD2278FE8CD00CBB756 /* PersonalImage.swift in Sources */,
 				0AF78C9027953AFE00EEB6BB /* AlisaWang.swift in Sources */,
 			);
@@ -559,7 +607,7 @@
 				DEVELOPMENT_TEAM = NS5248TK92;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Assignment One/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -581,7 +629,7 @@
 				DEVELOPMENT_TEAM = NS5248TK92;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Assignment One/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

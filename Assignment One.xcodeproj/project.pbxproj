@@ -36,6 +36,7 @@
 		A88F0F112798DB1A00F013DB /* Bereket.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F0F102798DB1A00F013DB /* Bereket.swift */; };
 		A88F0F142798DB3100F013DB /* AnkushDhawan.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F0F132798DB3100F013DB /* AnkushDhawan.swift */; };
 		A88F0F172798DB4200F013DB /* RaghavSamavedam.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F0F162798DB4200F013DB /* RaghavSamavedam.swift */; };
+		A88F0F1F2798DF9B00F013DB /* VarunAgarwal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F0F1E2798DF9B00F013DB /* VarunAgarwal.swift */; };
 		AEE2BE8C279693D800A64266 /* TerresaEun.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE2BE8B279693D800A64266 /* TerresaEun.swift */; };
 		C36B3EF827969AED0010EB3F /* EvieChen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B3EF727969AED0010EB3F /* EvieChen.swift */; };
 		DF58053B278CBCA200F7F57E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF58053A278CBCA200F7F57E /* Profile.swift */; };
@@ -92,6 +93,7 @@
 		A88F0F102798DB1A00F013DB /* Bereket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bereket.swift; sourceTree = "<group>"; };
 		A88F0F132798DB3100F013DB /* AnkushDhawan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnkushDhawan.swift; sourceTree = "<group>"; };
 		A88F0F162798DB4200F013DB /* RaghavSamavedam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaghavSamavedam.swift; sourceTree = "<group>"; };
+		A88F0F1E2798DF9B00F013DB /* VarunAgarwal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VarunAgarwal.swift; sourceTree = "<group>"; };
 		AEE2BE8B279693D800A64266 /* TerresaEun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerresaEun.swift; sourceTree = "<group>"; };
 		C36B3EF727969AED0010EB3F /* EvieChen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvieChen.swift; sourceTree = "<group>"; };
 		DF58053A278CBCA200F7F57E /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
@@ -223,6 +225,7 @@
 		8EF8F73F25965AD1000850BF /* Assignment One */ = {
 			isa = PBXGroup;
 			children = (
+				A88F0F1D2798DF9B00F013DB /* VarunAgarwal */,
 				A88F0F1C2798DE8400F013DB /* BesteAydin */,
 				A88F0F1B2798DCE500F013DB /* TerresaEun */,
 				A88F0F1A2798DB6900F013DB /* YoonjuKim */,
@@ -354,6 +357,14 @@
 				0058F5BA2797B14B00555357 /* BesteAydin.swift */,
 			);
 			path = BesteAydin;
+			sourceTree = "<group>";
+		};
+		A88F0F1D2798DF9B00F013DB /* VarunAgarwal */ = {
+			isa = PBXGroup;
+			children = (
+				A88F0F1E2798DF9B00F013DB /* VarunAgarwal.swift */,
+			);
+			path = VarunAgarwal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -500,6 +511,7 @@
 				DF58053B278CBCA200F7F57E /* Profile.swift in Sources */,
 				2799C6872795A1F2006A7C7B /* HaydenHofmann.swift in Sources */,
 				27F29A742794D06B00CB8AD1 /* TracyCai.swift in Sources */,
+				A88F0F1F2798DF9B00F013DB /* VarunAgarwal.swift in Sources */,
 				33A487CB27969F6800019A82 /* BillZhu.swift in Sources */,
 				27D4D4E32794CEBE003243B2 /* GauravLuthria.swift in Sources */,
 				8E55A38B2795F17E001D4007 /* RonitJain.swift in Sources */,

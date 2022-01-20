@@ -24,7 +24,7 @@ struct StudentList: View {
                         }
                     }
                 }
-            }.navigationBarTitle("Your Classmates")
+            }.navigationBarTitle("Your Class")
         }
     }
 }

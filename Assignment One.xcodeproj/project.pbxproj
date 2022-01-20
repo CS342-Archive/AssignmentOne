@@ -22,6 +22,8 @@
 		27C8111027997FF800117D3A /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8110F27997FF800117D3A /* ProjectsView.swift */; };
 		27C81114279980BD00117D3A /* TeacherList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C81113279980BD00117D3A /* TeacherList.swift */; };
 		27C811162799813300117D3A /* TeacherItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C811152799813300117D3A /* TeacherItem.swift */; };
+		27C811182799873A00117D3A /* ProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C811172799873A00117D3A /* ProjectCard.swift */; };
+		27C8111A2799879300117D3A /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C811192799879300117D3A /* Project.swift */; };
 		27D4D4E32794CEBE003243B2 /* GauravLuthria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D4D4E22794CEBE003243B2 /* GauravLuthria.swift */; };
 		27F29A742794D06B00CB8AD1 /* TracyCai.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F29A732794D06B00CB8AD1 /* TracyCai.swift */; };
 		27FF2A6D279679AC0037B17F /* TaylorLallas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FF2A6C279679AC0037B17F /* TaylorLallas.swift */; };
@@ -84,6 +86,8 @@
 		27C8110F27997FF800117D3A /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		27C81113279980BD00117D3A /* TeacherList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherList.swift; sourceTree = "<group>"; };
 		27C811152799813300117D3A /* TeacherItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherItem.swift; sourceTree = "<group>"; };
+		27C811172799873A00117D3A /* ProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCard.swift; sourceTree = "<group>"; };
+		27C811192799879300117D3A /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
 		27D4D4E22794CEBE003243B2 /* GauravLuthria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GauravLuthria.swift; sourceTree = "<group>"; };
 		27F29A732794D06B00CB8AD1 /* TracyCai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracyCai.swift; sourceTree = "<group>"; };
 		27FF2A6C279679AC0037B17F /* TaylorLallas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaylorLallas.swift; sourceTree = "<group>"; };
@@ -201,6 +205,7 @@
 				2733192B2798FCC300949406 /* Student.swift */,
 				273319322798FE9300949406 /* Team.swift */,
 				2733193A279910D100949406 /* Teacher.swift */,
+				27C811192799879300117D3A /* Project.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 			children = (
 				273319362798FF7300949406 /* WelcomeView.swift */,
 				27C8110F27997FF800117D3A /* ProjectsView.swift */,
+				27C811172799873A00117D3A /* ProjectCard.swift */,
 				273319342798FEC500949406 /* StudentList.swift */,
 				27C81113279980BD00117D3A /* TeacherList.swift */,
 				273319302798FE6800949406 /* SectionHeader.swift */,
@@ -551,6 +557,7 @@
 				27FF2A6D279679AC0037B17F /* TaylorLallas.swift in Sources */,
 				27C8111027997FF800117D3A /* ProjectsView.swift in Sources */,
 				8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */,
+				27C8111A2799879300117D3A /* Project.swift in Sources */,
 				9502D7ED278EAEB900A131D8 /* LongFormText.swift in Sources */,
 				0058F5BB2797B14B00555357 /* BesteAydin.swift in Sources */,
 				27C811162799813300117D3A /* TeacherItem.swift in Sources */,
@@ -570,6 +577,7 @@
 				2733192F2798FD3B00949406 /* StudentItem.swift in Sources */,
 				2799C6872795A1F2006A7C7B /* HaydenHofmann.swift in Sources */,
 				27F29A742794D06B00CB8AD1 /* TracyCai.swift in Sources */,
+				27C811182799873A00117D3A /* ProjectCard.swift in Sources */,
 				A88F0F1F2798DF9B00F013DB /* VarunAgarwal.swift in Sources */,
 				33A487CB27969F6800019A82 /* BillZhu.swift in Sources */,
 				27D4D4E32794CEBE003243B2 /* GauravLuthria.swift in Sources */,

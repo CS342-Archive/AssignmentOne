@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Student {
     
-    public static var allStudents: [(name: String, view: AnyView, team: Team, photo: String)] {
+    static var allStudents: [(name: String, view: AnyView, team: Team, photo: String)] {
         [
             ("Taylor Lallas", AnyView(TaylorLallas()), .budi, "profileSmall"),
             ("Laura Schütz", AnyView(LauraSchutz()), .gaitmate, "Portrait_Laura"),

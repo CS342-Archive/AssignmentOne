@@ -14,9 +14,11 @@ struct TeacherList: View {
     var body: some View {
         VStack {
             List {
-                Section(header: Text("Teaching Team")){
-                    ForEach(teachers.indices){ teacher in
-                        TeacherItem(name: teachers[teacher].name, photo: teachers[teacher].photo)
+                Section(){
+                    ForEach(teachers.indices){ teacherIndex in
+                        let teacher = teachers[teacherIndex]
+                        Link(destination: (URL(string: teacher.url)!)){                        TeacherItem(name: teacher.name, photo: teacher.photo, title: teacher.title, url: teacher.url)
+                        }
                     }
                 }
             }

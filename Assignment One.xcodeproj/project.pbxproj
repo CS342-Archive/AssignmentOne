@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,8 @@
 		273319352798FEC500949406 /* StudentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273319342798FEC500949406 /* StudentList.swift */; };
 		273319372798FF7300949406 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273319362798FF7300949406 /* WelcomeView.swift */; };
 		2733193B279910D100949406 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2733193A279910D100949406 /* Teacher.swift */; };
+		276858CF27999782009ECB13 /* ElegantCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 276858CE27999782009ECB13 /* ElegantCalendar */; };
+		27903A262799A69500809E8C /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27903A252799A69400809E8C /* BlurView.swift */; };
 		2799C6872795A1F2006A7C7B /* HaydenHofmann.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2799C6862795A1F2006A7C7B /* HaydenHofmann.swift */; };
 		27C58ED827966C3300C930FE /* LauraSchutz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C58ED727966C3300C930FE /* LauraSchutz.swift */; };
 		27C8111027997FF800117D3A /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8110F27997FF800117D3A /* ProjectsView.swift */; };
@@ -82,6 +84,7 @@
 		273319342798FEC500949406 /* StudentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentList.swift; sourceTree = "<group>"; };
 		273319362798FF7300949406 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		2733193A279910D100949406 /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		27903A252799A69400809E8C /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		2799C6862795A1F2006A7C7B /* HaydenHofmann.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaydenHofmann.swift; sourceTree = "<group>"; };
 		27C58ED727966C3300C930FE /* LauraSchutz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauraSchutz.swift; sourceTree = "<group>"; };
 		27C8110F27997FF800117D3A /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
@@ -128,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				276858CF27999782009ECB13 /* ElegantCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +228,7 @@
 				273319302798FE6800949406 /* SectionHeader.swift */,
 				27C811152799813300117D3A /* TeacherItem.swift */,
 				2733192E2798FD3B00949406 /* StudentItem.swift */,
+				27903A252799A69400809E8C /* BlurView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -451,6 +456,9 @@
 			dependencies = (
 			);
 			name = "Assignment One";
+			packageProductDependencies = (
+				276858CE27999782009ECB13 /* ElegantCalendar */,
+			);
 			productName = "Assignment One";
 			productReference = 8EF8F73D25965AD1000850BF /* Assignment One.app */;
 			productType = "com.apple.product-type.application";
@@ -522,6 +530,9 @@
 				Base,
 			);
 			mainGroup = 8EF8F73425965AD1000850BF;
+			packageReferences = (
+				276858CD27999781009ECB13 /* XCRemoteSwiftPackageReference "ElegantCalendar" */,
+			);
 			productRefGroup = 8EF8F73E25965AD1000850BF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -600,6 +611,7 @@
 				AEE2BE8C279693D800A64266 /* TerresaEun.swift in Sources */,
 				4249E4B2279965E3007638D9 /* AmitaGondi.swift in Sources */,
 				8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */,
+				27903A262799A69500809E8C /* BlurView.swift in Sources */,
 				271EAE242794B398004FA8C0 /* ContentView.swift in Sources */,
 				9AA7F441279623DE000DF786 /* SavithaSrinivasan.swift in Sources */,
 				A88F0EEE2798C06700F013DB /* LinaFang.swift in Sources */,
@@ -925,6 +937,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		276858CD27999781009ECB13 /* XCRemoteSwiftPackageReference "ElegantCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ThasianX/ElegantCalendar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		276858CE27999782009ECB13 /* ElegantCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 276858CD27999781009ECB13 /* XCRemoteSwiftPackageReference "ElegantCalendar" */;
+			productName = ElegantCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8EF8F73525965AD1000850BF /* Project object */;
 }

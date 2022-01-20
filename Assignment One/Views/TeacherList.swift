@@ -22,7 +22,7 @@ struct TeacherList: View {
                     }
                 }
             }
-        }.navigationBarTitle("Your Teaching Team")
+        }.navigationBarTitle("Teaching Team")
     }
 }
 

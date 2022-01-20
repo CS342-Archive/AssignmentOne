@@ -28,6 +28,7 @@
 		27F29A742794D06B00CB8AD1 /* TracyCai.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F29A732794D06B00CB8AD1 /* TracyCai.swift */; };
 		27FF2A6D279679AC0037B17F /* TaylorLallas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FF2A6C279679AC0037B17F /* TaylorLallas.swift */; };
 		33A487CB27969F6800019A82 /* BillZhu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A487CA27969F6800019A82 /* BillZhu.swift */; };
+		4249E4B2279965E3007638D9 /* AmitaGondi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4249E4B1279965E3007638D9 /* AmitaGondi.swift */; };
 		5822597627969AF500A2B7A4 /* YoonjuKim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5822597527969AF500A2B7A4 /* YoonjuKim.swift */; };
 		8E55A38B2795F17E001D4007 /* RonitJain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E55A38A2795F17E001D4007 /* RonitJain.swift */; };
 		8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F74025965AD1000850BF /* Assignment_OneApp.swift */; };
@@ -92,6 +93,7 @@
 		27F29A732794D06B00CB8AD1 /* TracyCai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracyCai.swift; sourceTree = "<group>"; };
 		27FF2A6C279679AC0037B17F /* TaylorLallas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaylorLallas.swift; sourceTree = "<group>"; };
 		33A487CA27969F6800019A82 /* BillZhu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillZhu.swift; sourceTree = "<group>"; };
+		4249E4B1279965E3007638D9 /* AmitaGondi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmitaGondi.swift; sourceTree = "<group>"; };
 		5822597527969AF500A2B7A4 /* YoonjuKim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoonjuKim.swift; sourceTree = "<group>"; };
 		8E55A38A2795F17E001D4007 /* RonitJain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RonitJain.swift; sourceTree = "<group>"; };
 		8EF8F73D25965AD1000850BF /* Assignment One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment One.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,6 +176,7 @@
 		273319292798FC9800949406 /* Submissions */ = {
 			isa = PBXGroup;
 			children = (
+				4249E4B0279965D4007638D9 /* AmitaGondi */,
 				A88F0F1D2798DF9B00F013DB /* VarunAgarwal */,
 				A88F0F1C2798DE8400F013DB /* BesteAydin */,
 				A88F0F1B2798DCE500F013DB /* TerresaEun */,
@@ -276,6 +279,14 @@
 				33A487CA27969F6800019A82 /* BillZhu.swift */,
 			);
 			path = BillZhu;
+			sourceTree = "<group>";
+		};
+		4249E4B0279965D4007638D9 /* AmitaGondi */ = {
+			isa = PBXGroup;
+			children = (
+				4249E4B1279965E3007638D9 /* AmitaGondi.swift */,
+			);
+			path = AmitaGondi;
 			sourceTree = "<group>";
 		};
 		8EF8F73425965AD1000850BF = {
@@ -587,6 +598,7 @@
 				A88F0F172798DB4200F013DB /* RaghavSamavedam.swift in Sources */,
 				273319352798FEC500949406 /* StudentList.swift in Sources */,
 				AEE2BE8C279693D800A64266 /* TerresaEun.swift in Sources */,
+				4249E4B2279965E3007638D9 /* AmitaGondi.swift in Sources */,
 				8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */,
 				271EAE242794B398004FA8C0 /* ContentView.swift in Sources */,
 				9AA7F441279623DE000DF786 /* SavithaSrinivasan.swift in Sources */,

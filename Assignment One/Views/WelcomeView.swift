@@ -34,7 +34,7 @@ struct WelcomeView: View {
                     .frame(width: 300)
                     .padding()
                 
-                Text("Welcome to CS342!")
+                Text("Welcome to CS342")
                     .font(.system(size: 40))
                     .fontWeight(.ultraLight)
                     .padding()
@@ -46,38 +46,37 @@ struct WelcomeView: View {
             
             Spacer()
             
+            Image("Spaceman")
+                .resizable()
+                .scaledToFit()
+                .frame(height: 200)
+            
+            Spacer()
+            
             VStack {
                 NavigationLink(destination: StudentList()){
                     HStack {
-                        Text("Meet your Classmates")
+                        Text("Meet your Class")
                         Spacer()
                         Image(systemName: "person.2")
-                    }.modifier(CustomButton(color: "BiodesignOrange"))
+                    }.modifier(CustomButton(color: "CustomOrange"))
                 }
-//                Spacer().frame(height: 20)
-//                NavigationLink(destination: StudentList()){
-//                    HStack {
-//                        Text("Meet your Teaching Team")
-//                        Spacer()
-//                        Image(systemName: "person.2")
-//                    }.modifier(CustomButton(color: "BiodesignOrange"))
-//                }
-//                Spacer().frame(height: 20)
-//                NavigationLink(destination: ProjectView()){
-//                    HStack {
-//                        Text("Learn about the Projects")
-//                        Spacer()
-//                        Image(systemName: "waveform.path.ecg.rectangle")
-//                    }.modifier(CustomButton(color: "BiodesignGreen"))
-//                }
-//                Spacer().frame(height: 20)
-//                NavigationLink(destination: StudentList()){
-//                    HStack {
-//                        Text("Useful Resources")
-//                        Spacer()
-//                        Image(systemName: "heart.text.square")
-//                    }.modifier(CustomButton(color: "BiodesignGreen"))
-//                }
+                Spacer().frame(height: 20)
+                NavigationLink(destination: TeacherList()){
+                    HStack {
+                        Text("Meet your Teaching Team")
+                        Spacer()
+                        Image(systemName: "person.2")
+                    }.modifier(CustomButton(color: "CustomOrange"))
+                }
+                Spacer().frame(height: 20)
+                NavigationLink(destination: ProjectsView()){
+                    HStack {
+                        Text("Learn about the Projects")
+                        Spacer()
+                        Image(systemName: "waveform.path.ecg.rectangle")
+                    }.modifier(CustomButton(color: "CustomGreen"))
+                }
             }
             
             Spacer()

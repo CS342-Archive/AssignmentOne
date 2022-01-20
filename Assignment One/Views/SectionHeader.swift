@@ -11,6 +11,7 @@ struct SectionHeader: View {
     var teamName: String
     
     var body: some View {
-        Text("Team \(teamName)").font(.system(size: 24, weight: .semibold))
+        Text("Team \(teamName)")
+            .font(.system(size: 24, weight: .semibold))
     }
 }

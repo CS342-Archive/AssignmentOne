@@ -9,15 +9,20 @@ import SwiftUI
 
 struct TeacherList: View {
     
-    let teachers = Teacher.allTeachers
+    let teachers = TeacherViewModel().teachers
     
     var body: some View {
         VStack {
             List {
                 Section(){
-                    ForEach(teachers.indices){ teacherIndex in
-                        let teacher = teachers[teacherIndex]
-                        Link(destination: (URL(string: teacher.url)!)){                        TeacherItem(name: teacher.name, photo: teacher.photo, title: teacher.title, url: teacher.url)
+                    ForEach(teachers.indices){ i in
+                        if let urlString = teachers[i].url,
+                           let url = URL(string: urlString){
+                            Link(destination: url){
+                                TeacherItem(teacher: teachers[i])
+                            }
+                        } else {
+                            TeacherItem(teacher: teachers[i])
                         }
                     }
                 }

@@ -8,14 +8,11 @@
 import SwiftUI
 
 struct TeacherItem: View {
-    var name: String
-    var photo: String
-    var title: String
-    var url: String
+    var teacher: Teacher
     
     var body: some View {
         HStack{
-            Image(photo)
+            Image(teacher.photo)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .frame(width: 75, height: 75)
@@ -26,12 +23,14 @@ struct TeacherItem: View {
             
             HStack {
                 VStack(alignment: .leading){
-                    Text(name).font(.title3).foregroundColor(.black)
-                    Text(title).font(.system(size: 20)).foregroundColor(.gray)
+                    Text(teacher.name).font(.title3).foregroundColor(.black)
+                    Text(teacher.title).font(.system(size: 20)).foregroundColor(.gray)
                 }
                 Spacer()
                 VStack(alignment: .trailing){
-                    Image(systemName: "link")
+                    if(teacher.url != ""){
+                        Image(systemName: "link")
+                    }
                 }
             }
         }

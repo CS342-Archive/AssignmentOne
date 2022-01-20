@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ProjectsView: View {
+    
+    let projects = ProjectViewModel().projects
+    
     var body: some View {
         ScrollView {
             HStack {
@@ -17,10 +20,12 @@ struct ProjectsView: View {
                 Spacer()
             }
             VStack {
-                ForEach(Project.allProjects.indices){ projectIndex in
-                    let project = Project.allProjects[projectIndex]
-                    let colors = Array(repeating: [Color("CustomOrange"), Color("CustomGreen"), Color("CustomBrown")], count: Project.allProjects.count).flatMap { $0 }
-                    ProjectCard(logo: project.logo, name: project.name, description: project.description, mentors: project.mentors, backgroundColor: colors[projectIndex], url: project.url)
+                ForEach(projects.indices){ i in
+                    
+                    let colors = Array(repeating: [Color("CustomOrange"), Color("CustomGreen"), Color("CustomBrown")], count: projects.count)
+                        .flatMap { $0 }
+                    
+                    ProjectCard(project: projects[i], backgroundColor: colors[i])
                 }
             }
         }

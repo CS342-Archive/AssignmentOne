@@ -15,5 +15,5 @@ enum Team: String, CaseIterable, Identifiable {
     case budi = "BUDI"
     case activate = "Activate"
     case gaitmate = "GaitMate"
-    case vasctrac2 = "VascTrac2"
+    case vasctrac2 = "VascTrac 2.0"
 }

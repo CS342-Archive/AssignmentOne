@@ -9,12 +9,11 @@ import SwiftUI
 
 struct StudentItem: View {
     
-    var name: String
-    var photo: String
+    var student: Student
     
     var body: some View {
         HStack{
-            Image(photo)
+            Image(student.photo)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .frame(width: 75, height: 75)
@@ -22,7 +21,7 @@ struct StudentItem: View {
                 .shadow(color: Color.black.opacity(0.2), radius: 5)
                 .padding(10)
             Spacer().frame(width: 10)
-            Text(name).font(.title3)
+            Text(student.name).font(.title3)
         }
     }
 }

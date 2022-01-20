@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,8 +17,10 @@
 		273319352798FEC500949406 /* StudentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273319342798FEC500949406 /* StudentList.swift */; };
 		273319372798FF7300949406 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273319362798FF7300949406 /* WelcomeView.swift */; };
 		2733193B279910D100949406 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2733193A279910D100949406 /* Teacher.swift */; };
-		276858CF27999782009ECB13 /* ElegantCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 276858CE27999782009ECB13 /* ElegantCalendar */; };
 		27903A262799A69500809E8C /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27903A252799A69400809E8C /* BlurView.swift */; };
+		27903A2E2799E66300809E8C /* ProjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27903A2D2799E66300809E8C /* ProjectViewModel.swift */; };
+		27903A332799EBDE00809E8C /* TeacherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27903A322799EBDE00809E8C /* TeacherViewModel.swift */; };
+		27903A352799EEAF00809E8C /* StudentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27903A342799EEAF00809E8C /* StudentViewModel.swift */; };
 		2799C6872795A1F2006A7C7B /* HaydenHofmann.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2799C6862795A1F2006A7C7B /* HaydenHofmann.swift */; };
 		27C58ED827966C3300C930FE /* LauraSchutz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C58ED727966C3300C930FE /* LauraSchutz.swift */; };
 		27C8111027997FF800117D3A /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8110F27997FF800117D3A /* ProjectsView.swift */; };
@@ -85,6 +87,9 @@
 		273319362798FF7300949406 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		2733193A279910D100949406 /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
 		27903A252799A69400809E8C /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		27903A2D2799E66300809E8C /* ProjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewModel.swift; sourceTree = "<group>"; };
+		27903A322799EBDE00809E8C /* TeacherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherViewModel.swift; sourceTree = "<group>"; };
+		27903A342799EEAF00809E8C /* StudentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewModel.swift; sourceTree = "<group>"; };
 		2799C6862795A1F2006A7C7B /* HaydenHofmann.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaydenHofmann.swift; sourceTree = "<group>"; };
 		27C58ED727966C3300C930FE /* LauraSchutz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauraSchutz.swift; sourceTree = "<group>"; };
 		27C8110F27997FF800117D3A /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
@@ -131,7 +136,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				276858CF27999782009ECB13 /* ElegantCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +237,16 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		27903A2C2799E64B00809E8C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				27903A2D2799E66300809E8C /* ProjectViewModel.swift */,
+				27903A322799EBDE00809E8C /* TeacherViewModel.swift */,
+				27903A342799EEAF00809E8C /* StudentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		2799C6882795A254006A7C7B /* HaydenHofmann */ = {
 			isa = PBXGroup;
 			children = (
@@ -317,6 +331,7 @@
 		8EF8F73F25965AD1000850BF /* Assignment One */ = {
 			isa = PBXGroup;
 			children = (
+				27903A2C2799E64B00809E8C /* ViewModel */,
 				2733192D2798FD2100949406 /* Views */,
 				2733192A2798FCA800949406 /* Model */,
 				273319292798FC9800949406 /* Submissions */,
@@ -457,7 +472,6 @@
 			);
 			name = "Assignment One";
 			packageProductDependencies = (
-				276858CE27999782009ECB13 /* ElegantCalendar */,
 			);
 			productName = "Assignment One";
 			productReference = 8EF8F73D25965AD1000850BF /* Assignment One.app */;
@@ -531,7 +545,6 @@
 			);
 			mainGroup = 8EF8F73425965AD1000850BF;
 			packageReferences = (
-				276858CD27999781009ECB13 /* XCRemoteSwiftPackageReference "ElegantCalendar" */,
 			);
 			productRefGroup = 8EF8F73E25965AD1000850BF /* Products */;
 			projectDirPath = "";
@@ -590,12 +603,15 @@
 				273319372798FF7300949406 /* WelcomeView.swift in Sources */,
 				A88F0EF42798C91900F013DB /* LavenderChen.swift in Sources */,
 				9584D0872790DA46002E7E1F /* HighlightReel.swift in Sources */,
+				27903A2E2799E66300809E8C /* ProjectViewModel.swift in Sources */,
+				27903A352799EEAF00809E8C /* StudentViewModel.swift in Sources */,
 				9584D08B2791523D002E7E1F /* ContactMeView.swift in Sources */,
 				2733192C2798FCC300949406 /* Student.swift in Sources */,
 				273319312798FE6800949406 /* SectionHeader.swift in Sources */,
 				A88F0F142798DB3100F013DB /* AnkushDhawan.swift in Sources */,
 				27C58ED827966C3300C930FE /* LauraSchutz.swift in Sources */,
 				DF58053B278CBCA200F7F57E /* Profile.swift in Sources */,
+				27903A332799EBDE00809E8C /* TeacherViewModel.swift in Sources */,
 				2733192F2798FD3B00949406 /* StudentItem.swift in Sources */,
 				2799C6872795A1F2006A7C7B /* HaydenHofmann.swift in Sources */,
 				27F29A742794D06B00CB8AD1 /* TracyCai.swift in Sources */,
@@ -776,7 +792,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = NS5248TK92;
+				DEVELOPMENT_TEAM = B2Q3T3P8HP;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Assignment One/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -784,7 +800,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cs324;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stanford.cs342-assignment-one";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -798,7 +814,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = NS5248TK92;
+				DEVELOPMENT_TEAM = B2Q3T3P8HP;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Assignment One/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -806,7 +822,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cs324;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stanford.cs342-assignment-one";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -937,25 +953,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		276858CD27999781009ECB13 /* XCRemoteSwiftPackageReference "ElegantCalendar" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ThasianX/ElegantCalendar";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		276858CE27999782009ECB13 /* ElegantCalendar */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 276858CD27999781009ECB13 /* XCRemoteSwiftPackageReference "ElegantCalendar" */;
-			productName = ElegantCalendar;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8EF8F73525965AD1000850BF /* Project object */;
 }

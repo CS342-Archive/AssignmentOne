@@ -8,17 +8,17 @@
 import SwiftUI
 
 struct StudentList: View {
-    let students = Student.allStudents
+    let students = StudentViewModel().students
     
     var body: some View {
         VStack {
             List {
                 ForEach(Team.allCases){ team in
                     Section(header: SectionHeader(teamName: team.rawValue)){
-                        ForEach(students.indices){ student in
-                            if(team.rawValue == students[student].team.rawValue){
-                                NavigationLink(destination: students[student].view){
-                                    StudentItem(name: students[student].name, photo: students[student].photo)
+                        ForEach(students.indices){ i in
+                            if(team.rawValue == students[i].team.rawValue){
+                                NavigationLink(destination: students[i].view){
+                                    StudentItem(student: students[i])
                                 }
                             }
                         }

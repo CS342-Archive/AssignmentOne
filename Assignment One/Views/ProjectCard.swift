@@ -8,12 +8,10 @@
 import SwiftUI
 
 struct ProjectCard: View {
-    var logo: String
-    var name: String
-    var description: String
-    var mentors: String
-    var backgroundColor: Color
-    var url: String
+    var project: Project
+    var backgroundColor: Color = Color("CustomGreen")
+    
+    @State private var showDetails = false
     
     var body: some View {
         RoundedRectangle(cornerRadius: 20)
@@ -21,29 +19,80 @@ struct ProjectCard: View {
             .overlay(
                 HStack {
                     VStack(alignment: .leading){
-                        Text(name)
+                        Text(project.name)
                             .font(.largeTitle)
                             .fontWeight(.bold)
                             .foregroundColor(.white)
                             .padding(.bottom, 15)
                         
-                        Text(description)
+                        Text(project.description)
                             .font(.headline)
                             .foregroundColor(.white)
                             .padding(.bottom, 15)
                         
-                        Text("Led by \(mentors)")
+                        Text("Led by \(project.mentors)")
                             .font(.subheadline)
                             .foregroundColor(.white)
                             .padding(.bottom, 15)
                         
                         Spacer()
                         
-                        Link("Team Card", destination: URL(string: url)!)
+                        Button("Learn More"){
+                            showDetails.toggle()
+                        }
                         .foregroundColor(.white)
                         .padding()
                         .background(Color(red: 0, green: 0, blue: 0.5))
                         .clipShape(Capsule())
+                        .sheet(isPresented: $showDetails, content: {
+                            VStack(){
+                                VStack(){
+                                    Text(project.name)
+                                        .font(.system(size: 50))
+                                        .foregroundColor(.white)
+                                        .fontWeight(.bold)
+                                        .multilineTextAlignment(.center)
+                                        .padding(.bottom, 15)
+                                    
+                                    Text(project.description)
+                                        .font(.system(size: 30))
+                                        .multilineTextAlignment(.center)
+                                        .foregroundColor(.white)
+                                        .padding(.bottom, 15)
+                                    
+                                    Text("Led by \(project.mentors)")
+                                        .font(.system(size: 20))
+                                        .foregroundColor(.white)
+                                        .multilineTextAlignment(.center)
+                                        .padding(.bottom, 15)
+                                    
+                                    ScrollView{
+                                        Text(project.proposal)
+                                            .foregroundColor(.white)
+                                            .padding(.bottom, 15)
+                                    }.padding(15)
+                                    
+                                    HStack{
+                                        Button("Team Github"){
+                                            print("Github")
+                                        }
+                                        .padding()
+                                        .foregroundColor(.white)
+                                        .background(Color(red: 0, green: 0, blue: 0.5))
+                                        .clipShape(Capsule())
+                                        
+                                        Link("Team Card", destination: URL(string: project.url)!)
+                                            .padding()
+                                            .foregroundColor(.white)
+                                            .background(Color(red: 0, green: 0, blue: 0.5))
+                                            .clipShape(Capsule())
+                                        
+                                    }
+                                    
+                                    
+                                }.padding(15)
+                            }.background(backgroundColor)
+                        })
                         
                         Spacer()
                         

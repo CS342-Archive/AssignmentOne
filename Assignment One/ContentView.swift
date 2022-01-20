@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct ContentView: View {
     
@@ -21,6 +22,16 @@ struct ContentView: View {
             ("Savitha Srinivasan", AnyView(SavithaSrinivasan())),
             ("Alisa Wang", AnyView(AlisaWang())),
             ("Beste Aydin", AnyView(BesteAydin()))
+            ("Lina Fang", AnyView(LinaFang())),
+            ("Sharon Cheng", AnyView(SharonCheng())),
+            ("Lavender Chen", AnyView(LavenderChen())),
+            ("Zheqing (Bill) Zhu", AnyView(BillZhu())),
+            ("Evie Chen", AnyView(EvieChen())),
+            ("Raghav Samavedam", AnyView(RaghavSamavedam())),
+            ("Ankush Dhawan", AnyView(AnkushDhawan())),
+            ("Bereket Gebregziabher", AnyView(Bereket())),
+            ("Yoonju Kim", AnyView(YoonjuKim())),
+            ("Terresa Eun", AnyView(TerresaEun()))
         ].sorted(by: {$0.name < $1.name})
     }
     

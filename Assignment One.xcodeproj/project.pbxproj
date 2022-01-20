@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0058F5BB2797B14B00555357 /* BesteAydin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0058F5BA2797B14B00555357 /* BesteAydin.swift */; };
 		0AF78C9027953AFE00EEB6BB /* AlisaWang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF78C8F27953AFE00EEB6BB /* AlisaWang.swift */; };
 		271EAE242794B398004FA8C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271EAE232794B398004FA8C0 /* ContentView.swift */; };
 		2723C0B62795B32D00F4B40A /* ExampleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2723C0B52795B32D00F4B40A /* ExampleCard.swift */; };
@@ -58,6 +59,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0058F5BA2797B14B00555357 /* BesteAydin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BesteAydin.swift; sourceTree = "<group>"; };
 		0AF78C8F27953AFE00EEB6BB /* AlisaWang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlisaWang.swift; sourceTree = "<group>"; };
 		271EAE232794B398004FA8C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2723C0B52795B32D00F4B40A /* ExampleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCard.swift; sourceTree = "<group>"; };
@@ -221,6 +223,7 @@
 		8EF8F73F25965AD1000850BF /* Assignment One */ = {
 			isa = PBXGroup;
 			children = (
+				0058F5BA2797B14B00555357 /* BesteAydin.swift */,
 				A88F0F1B2798DCE500F013DB /* TerresaEun */,
 				A88F0F1A2798DB6900F013DB /* YoonjuKim */,
 				A88F0F152798DB4200F013DB /* RaghavSamavedam */,
@@ -477,6 +480,7 @@
 				27FF2A6D279679AC0037B17F /* TaylorLallas.swift in Sources */,
 				8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */,
 				9502D7ED278EAEB900A131D8 /* LongFormText.swift in Sources */,
+				0058F5BB2797B14B00555357 /* BesteAydin.swift in Sources */,
 				5822597627969AF500A2B7A4 /* YoonjuKim.swift in Sources */,
 				A88F0EFB2798CC5D00F013DB /* SharonCheng.swift in Sources */,
 				9502D7EB278E8DAC00A131D8 /* CircleImage.swift in Sources */,

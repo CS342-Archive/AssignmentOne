@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0058F5BB2797B14B00555357 /* BesteAydin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0058F5BA2797B14B00555357 /* BesteAydin.swift */; };
 		0AF78C9027953AFE00EEB6BB /* AlisaWang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF78C8F27953AFE00EEB6BB /* AlisaWang.swift */; };
 		271EAE242794B398004FA8C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271EAE232794B398004FA8C0 /* ContentView.swift */; };
 		2723C0B62795B32D00F4B40A /* ExampleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2723C0B52795B32D00F4B40A /* ExampleCard.swift */; };
@@ -15,11 +16,12 @@
 		27D4D4E32794CEBE003243B2 /* GauravLuthria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D4D4E22794CEBE003243B2 /* GauravLuthria.swift */; };
 		27F29A742794D06B00CB8AD1 /* TracyCai.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F29A732794D06B00CB8AD1 /* TracyCai.swift */; };
 		27FF2A6D279679AC0037B17F /* TaylorLallas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FF2A6C279679AC0037B17F /* TaylorLallas.swift */; };
+		33A487CB27969F6800019A82 /* BillZhu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A487CA27969F6800019A82 /* BillZhu.swift */; };
+		5822597627969AF500A2B7A4 /* YoonjuKim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5822597527969AF500A2B7A4 /* YoonjuKim.swift */; };
 		8E55A38B2795F17E001D4007 /* RonitJain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E55A38A2795F17E001D4007 /* RonitJain.swift */; };
 		8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F74025965AD1000850BF /* Assignment_OneApp.swift */; };
 		8EF8F74325965AD1000850BF /* MeganWorrel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F74225965AD1000850BF /* MeganWorrel.swift */; };
 		8EF8F74525965AD4000850BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF8F74425965AD4000850BF /* Assets.xcassets */; };
-		8EF8F74825965AD4000850BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF8F74725965AD4000850BF /* Preview Assets.xcassets */; };
 		8EF8F75325965AD4000850BF /* Assignment_OneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F75225965AD4000850BF /* Assignment_OneTests.swift */; };
 		8EF8F75E25965AD4000850BF /* Assignment_OneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F75D25965AD4000850BF /* Assignment_OneUITests.swift */; };
 		9502D7EB278E8DAC00A131D8 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9502D7EA278E8DAC00A131D8 /* CircleImage.swift */; };
@@ -28,6 +30,15 @@
 		9584D08B2791523D002E7E1F /* ContactMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9584D08A2791523D002E7E1F /* ContactMeView.swift */; };
 		9AA7F441279623DE000DF786 /* SavithaSrinivasan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA7F440279623DE000DF786 /* SavithaSrinivasan.swift */; };
 		A550ADD2278FE8CD00CBB756 /* PersonalImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A550ADD1278FE8CD00CBB756 /* PersonalImage.swift */; };
+		A88F0EEE2798C06700F013DB /* LinaFang.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F0EED2798C06700F013DB /* LinaFang.swift */; };
+		A88F0EF42798C91900F013DB /* LavenderChen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F0EF32798C91900F013DB /* LavenderChen.swift */; };
+		A88F0EFB2798CC5D00F013DB /* SharonCheng.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F0EFA2798CC5D00F013DB /* SharonCheng.swift */; };
+		A88F0F112798DB1A00F013DB /* Bereket.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F0F102798DB1A00F013DB /* Bereket.swift */; };
+		A88F0F142798DB3100F013DB /* AnkushDhawan.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F0F132798DB3100F013DB /* AnkushDhawan.swift */; };
+		A88F0F172798DB4200F013DB /* RaghavSamavedam.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F0F162798DB4200F013DB /* RaghavSamavedam.swift */; };
+		A88F0F1F2798DF9B00F013DB /* VarunAgarwal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F0F1E2798DF9B00F013DB /* VarunAgarwal.swift */; };
+		AEE2BE8C279693D800A64266 /* TerresaEun.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE2BE8B279693D800A64266 /* TerresaEun.swift */; };
+		C36B3EF827969AED0010EB3F /* EvieChen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B3EF727969AED0010EB3F /* EvieChen.swift */; };
 		DF58053B278CBCA200F7F57E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF58053A278CBCA200F7F57E /* Profile.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0058F5BA2797B14B00555357 /* BesteAydin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BesteAydin.swift; sourceTree = "<group>"; };
 		0AF78C8F27953AFE00EEB6BB /* AlisaWang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlisaWang.swift; sourceTree = "<group>"; };
 		271EAE232794B398004FA8C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2723C0B52795B32D00F4B40A /* ExampleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCard.swift; sourceTree = "<group>"; };
@@ -57,12 +69,13 @@
 		27D4D4E22794CEBE003243B2 /* GauravLuthria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GauravLuthria.swift; sourceTree = "<group>"; };
 		27F29A732794D06B00CB8AD1 /* TracyCai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracyCai.swift; sourceTree = "<group>"; };
 		27FF2A6C279679AC0037B17F /* TaylorLallas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaylorLallas.swift; sourceTree = "<group>"; };
+		33A487CA27969F6800019A82 /* BillZhu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillZhu.swift; sourceTree = "<group>"; };
+		5822597527969AF500A2B7A4 /* YoonjuKim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoonjuKim.swift; sourceTree = "<group>"; };
 		8E55A38A2795F17E001D4007 /* RonitJain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RonitJain.swift; sourceTree = "<group>"; };
 		8EF8F73D25965AD1000850BF /* Assignment One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment One.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF8F74025965AD1000850BF /* Assignment_OneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_OneApp.swift; sourceTree = "<group>"; };
 		8EF8F74225965AD1000850BF /* MeganWorrel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeganWorrel.swift; sourceTree = "<group>"; };
 		8EF8F74425965AD4000850BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8EF8F74725965AD4000850BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8EF8F74E25965AD4000850BF /* Assignment OneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment OneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF8F75225965AD4000850BF /* Assignment_OneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_OneTests.swift; sourceTree = "<group>"; };
 		8EF8F75925965AD4000850BF /* Assignment OneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment OneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +87,15 @@
 		9584D08A2791523D002E7E1F /* ContactMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactMeView.swift; sourceTree = "<group>"; };
 		9AA7F440279623DE000DF786 /* SavithaSrinivasan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavithaSrinivasan.swift; sourceTree = "<group>"; };
 		A550ADD1278FE8CD00CBB756 /* PersonalImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalImage.swift; sourceTree = "<group>"; };
+		A88F0EED2798C06700F013DB /* LinaFang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinaFang.swift; sourceTree = "<group>"; };
+		A88F0EF32798C91900F013DB /* LavenderChen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LavenderChen.swift; sourceTree = "<group>"; };
+		A88F0EFA2798CC5D00F013DB /* SharonCheng.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharonCheng.swift; sourceTree = "<group>"; };
+		A88F0F102798DB1A00F013DB /* Bereket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bereket.swift; sourceTree = "<group>"; };
+		A88F0F132798DB3100F013DB /* AnkushDhawan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnkushDhawan.swift; sourceTree = "<group>"; };
+		A88F0F162798DB4200F013DB /* RaghavSamavedam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaghavSamavedam.swift; sourceTree = "<group>"; };
+		A88F0F1E2798DF9B00F013DB /* VarunAgarwal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VarunAgarwal.swift; sourceTree = "<group>"; };
+		AEE2BE8B279693D800A64266 /* TerresaEun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerresaEun.swift; sourceTree = "<group>"; };
+		C36B3EF727969AED0010EB3F /* EvieChen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvieChen.swift; sourceTree = "<group>"; };
 		DF58053A278CBCA200F7F57E /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -172,6 +194,14 @@
 			path = TaylorLallas;
 			sourceTree = "<group>";
 		};
+		33A487C927969F5C00019A82 /* BillZhu */ = {
+			isa = PBXGroup;
+			children = (
+				33A487CA27969F6800019A82 /* BillZhu.swift */,
+			);
+			path = BillZhu;
+			sourceTree = "<group>";
+		};
 		8EF8F73425965AD1000850BF = {
 			isa = PBXGroup;
 			children = (
@@ -195,6 +225,18 @@
 		8EF8F73F25965AD1000850BF /* Assignment One */ = {
 			isa = PBXGroup;
 			children = (
+				A88F0F1D2798DF9B00F013DB /* VarunAgarwal */,
+				A88F0F1C2798DE8400F013DB /* BesteAydin */,
+				A88F0F1B2798DCE500F013DB /* TerresaEun */,
+				A88F0F1A2798DB6900F013DB /* YoonjuKim */,
+				A88F0F152798DB4200F013DB /* RaghavSamavedam */,
+				A88F0F122798DB3100F013DB /* AnkushDhawan */,
+				A88F0F0F2798DB1A00F013DB /* BereketGebregziabher */,
+				A88F0EFC2798D07700F013DB /* EvieChen */,
+				A88F0EF92798CC5D00F013DB /* SharonCheng */,
+				A88F0EF22798C90800F013DB /* LavenderChen */,
+				A88F0EEC2798C04200F013DB /* LinaFang */,
+				33A487C927969F5C00019A82 /* BillZhu */,
 				27FF2A6E27967A700037B17F /* TaylorLallas */,
 				27C58ED927966D6700C930FE /* LauraSchutz */,
 				27E2D07B279656BE00B39639 /* RonitJain */,
@@ -208,17 +250,8 @@
 				271EAE232794B398004FA8C0 /* ContentView.swift */,
 				2723C0B52795B32D00F4B40A /* ExampleCard.swift */,
 				8EF8F74425965AD4000850BF /* Assets.xcassets */,
-				8EF8F74625965AD4000850BF /* Preview Content */,
 			);
 			path = "Assignment One";
-			sourceTree = "<group>";
-		};
-		8EF8F74625965AD4000850BF /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				8EF8F74725965AD4000850BF /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		8EF8F75125965AD4000850BF /* Assignment OneTests */ = {
@@ -244,6 +277,94 @@
 				9AA7F440279623DE000DF786 /* SavithaSrinivasan.swift */,
 			);
 			path = SavithaSrinivasan;
+			sourceTree = "<group>";
+		};
+		A88F0EEC2798C04200F013DB /* LinaFang */ = {
+			isa = PBXGroup;
+			children = (
+				A88F0EED2798C06700F013DB /* LinaFang.swift */,
+			);
+			path = LinaFang;
+			sourceTree = "<group>";
+		};
+		A88F0EF22798C90800F013DB /* LavenderChen */ = {
+			isa = PBXGroup;
+			children = (
+				A88F0EF32798C91900F013DB /* LavenderChen.swift */,
+			);
+			path = LavenderChen;
+			sourceTree = "<group>";
+		};
+		A88F0EF92798CC5D00F013DB /* SharonCheng */ = {
+			isa = PBXGroup;
+			children = (
+				A88F0EFA2798CC5D00F013DB /* SharonCheng.swift */,
+			);
+			path = SharonCheng;
+			sourceTree = "<group>";
+		};
+		A88F0EFC2798D07700F013DB /* EvieChen */ = {
+			isa = PBXGroup;
+			children = (
+				C36B3EF727969AED0010EB3F /* EvieChen.swift */,
+			);
+			path = EvieChen;
+			sourceTree = "<group>";
+		};
+		A88F0F0F2798DB1A00F013DB /* BereketGebregziabher */ = {
+			isa = PBXGroup;
+			children = (
+				A88F0F102798DB1A00F013DB /* Bereket.swift */,
+			);
+			path = BereketGebregziabher;
+			sourceTree = "<group>";
+		};
+		A88F0F122798DB3100F013DB /* AnkushDhawan */ = {
+			isa = PBXGroup;
+			children = (
+				A88F0F132798DB3100F013DB /* AnkushDhawan.swift */,
+			);
+			path = AnkushDhawan;
+			sourceTree = "<group>";
+		};
+		A88F0F152798DB4200F013DB /* RaghavSamavedam */ = {
+			isa = PBXGroup;
+			children = (
+				A88F0F162798DB4200F013DB /* RaghavSamavedam.swift */,
+			);
+			path = RaghavSamavedam;
+			sourceTree = "<group>";
+		};
+		A88F0F1A2798DB6900F013DB /* YoonjuKim */ = {
+			isa = PBXGroup;
+			children = (
+				5822597527969AF500A2B7A4 /* YoonjuKim.swift */,
+			);
+			path = YoonjuKim;
+			sourceTree = "<group>";
+		};
+		A88F0F1B2798DCE500F013DB /* TerresaEun */ = {
+			isa = PBXGroup;
+			children = (
+				AEE2BE8B279693D800A64266 /* TerresaEun.swift */,
+			);
+			path = TerresaEun;
+			sourceTree = "<group>";
+		};
+		A88F0F1C2798DE8400F013DB /* BesteAydin */ = {
+			isa = PBXGroup;
+			children = (
+				0058F5BA2797B14B00555357 /* BesteAydin.swift */,
+			);
+			path = BesteAydin;
+			sourceTree = "<group>";
+		};
+		A88F0F1D2798DF9B00F013DB /* VarunAgarwal */ = {
+			isa = PBXGroup;
+			children = (
+				A88F0F1E2798DF9B00F013DB /* VarunAgarwal.swift */,
+			);
+			path = VarunAgarwal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,7 +470,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EF8F74825965AD4000850BF /* Preview Assets.xcassets in Resources */,
 				8EF8F74525965AD4000850BF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,24 +495,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C36B3EF827969AED0010EB3F /* EvieChen.swift in Sources */,
 				27FF2A6D279679AC0037B17F /* TaylorLallas.swift in Sources */,
 				8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */,
 				9502D7ED278EAEB900A131D8 /* LongFormText.swift in Sources */,
+				0058F5BB2797B14B00555357 /* BesteAydin.swift in Sources */,
+				5822597627969AF500A2B7A4 /* YoonjuKim.swift in Sources */,
+				A88F0EFB2798CC5D00F013DB /* SharonCheng.swift in Sources */,
 				9502D7EB278E8DAC00A131D8 /* CircleImage.swift in Sources */,
+				A88F0EF42798C91900F013DB /* LavenderChen.swift in Sources */,
 				9584D0872790DA46002E7E1F /* HighlightReel.swift in Sources */,
 				9584D08B2791523D002E7E1F /* ContactMeView.swift in Sources */,
+				A88F0F142798DB3100F013DB /* AnkushDhawan.swift in Sources */,
 				27C58ED827966C3300C930FE /* LauraSchutz.swift in Sources */,
 				DF58053B278CBCA200F7F57E /* Profile.swift in Sources */,
 				2799C6872795A1F2006A7C7B /* HaydenHofmann.swift in Sources */,
 				27F29A742794D06B00CB8AD1 /* TracyCai.swift in Sources */,
+				A88F0F1F2798DF9B00F013DB /* VarunAgarwal.swift in Sources */,
+				33A487CB27969F6800019A82 /* BillZhu.swift in Sources */,
 				27D4D4E32794CEBE003243B2 /* GauravLuthria.swift in Sources */,
 				8E55A38B2795F17E001D4007 /* RonitJain.swift in Sources */,
 				2723C0B62795B32D00F4B40A /* ExampleCard.swift in Sources */,
 				8EF8F74325965AD1000850BF /* MeganWorrel.swift in Sources */,
+				A88F0F172798DB4200F013DB /* RaghavSamavedam.swift in Sources */,
+				AEE2BE8C279693D800A64266 /* TerresaEun.swift in Sources */,
 				8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */,
 				271EAE242794B398004FA8C0 /* ContentView.swift in Sources */,
 				9AA7F441279623DE000DF786 /* SavithaSrinivasan.swift in Sources */,
+				A88F0EEE2798C06700F013DB /* LinaFang.swift in Sources */,
 				A550ADD2278FE8CD00CBB756 /* PersonalImage.swift in Sources */,
+				A88F0F112798DB1A00F013DB /* Bereket.swift in Sources */,
 				0AF78C9027953AFE00EEB6BB /* AlisaWang.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -551,11 +683,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Assignment One/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = NS5248TK92;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Assignment One/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -573,11 +705,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Assignment One/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = NS5248TK92;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Assignment One/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

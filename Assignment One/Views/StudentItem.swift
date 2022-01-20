@@ -19,8 +19,8 @@ struct StudentItem: View {
                 .aspectRatio(contentMode: .fill)
                 .frame(width: 75, height: 75)
                 .clipShape(Circle())
-                .shadow(radius: 5)
-                .padding(5)
+                .shadow(color: Color.black.opacity(0.2), radius: 5)
+                .padding(10)
             Spacer().frame(width: 10)
             Text(name).font(.title3)
         }

@@ -26,7 +26,7 @@ struct Student {
             ("Lavender Chen", AnyView(LavenderChen()), .budi, "bio_image"),
             ("Zheqing (Bill) Zhu", AnyView(BillZhu()), .budi, "Bill"),
             ("Evie Chen", AnyView(EvieChen()), .activate, "evie"),
-            ("Raghav Samavedam", AnyView(RaghavSamavedam()), .gaitmate, ""),
+            ("Raghav Samavedam", AnyView(RaghavSamavedam()), .gaitmate, "RaghavSamavedam"),
             ("Ankush Dhawan", AnyView(AnkushDhawan()), .gaitmate, "Ankush_Dhawan"),
             ("Bereket Gebregziabher", AnyView(Bereket()), .choir, "BG"),
             ("Yoonju Kim", AnyView(YoonjuKim()), .budi, "Yoonjuk"),

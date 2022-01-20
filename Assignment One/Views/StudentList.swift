@@ -24,7 +24,7 @@ struct StudentList: View {
                         }
                     }
                 }
-            }.navigationBarTitle("Meet CS342 👋")
+            }.navigationBarTitle("Meet Your Classmates")
         }
     }
 }

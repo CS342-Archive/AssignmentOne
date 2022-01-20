@@ -12,6 +12,7 @@ struct Student {
     public static var allStudents: [(name: String, view: AnyView, team: Team, photo: String)] {
         [
             ("Taylor Lallas", AnyView(TaylorLallas()), .budi, "profileSmall"),
+            ("Amita Gondi", AnyView(AmitaGondi()), .gaitmate, "Amita"),
             ("Laura Schütz", AnyView(LauraSchutz()), .gaitmate, "Portrait_Laura"),
             ("Hayden Hofmann", AnyView(HaydenHofmann()), .choir, "HaydenHofmann"),
             ("Tracy Cai", AnyView(TracyCai()), .budi, "tracy"),

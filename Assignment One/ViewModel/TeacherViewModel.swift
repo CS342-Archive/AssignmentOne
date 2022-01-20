@@ -15,9 +15,9 @@ class TeacherViewModel {
         self.teachers = [
             Teacher(name: "Oliver Aalami", photo: "OliverAalami", title: "Director", url: "https://med.stanford.edu/profiles/oliver-aalami?tab=bio"),
             Teacher(name: "Vishnu Ravi", photo: "VishnuRavi", title: "Lead Architect", url: "https://vishnu.io"),
-            Teacher(name: "Surabhi Mundada", photo: "SurabhiMundada", title: "TA", url: ""),
+            Teacher(name: "Surabhi Mundada", photo: "SurabhiMundada", title: "TA", url: "https://www.linkedin.com/in/mundada-surabhi/"),
             Teacher(name: "Varun Shenoy", photo: "VarunShenoy", title: "Co-Instructor", url: "https://varunshenoy.com"),
-            Teacher(name: "Santiago Gutierrez", photo: "SantiagoGutierrez", title: "Co-Instructor", url: ""),
+            Teacher(name: "Santiago Gutierrez", photo: "SantiagoGutierrez", title: "Co-Instructor", url: "https://santi-ago.com/special-projects/"),
             Teacher(name: "Mike Hittle", photo: "MikeHittle", title: "Co-Instructor", url: "https://profiles.stanford.edu/michael-hittle")
         ]
     }

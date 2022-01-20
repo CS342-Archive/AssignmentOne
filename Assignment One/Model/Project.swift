@@ -14,5 +14,6 @@ struct Project: Codable, Identifiable {
     let description: String
     let mentors: String
     let url: String
+    let github: String
     let proposal: String
 }

@@ -13,18 +13,20 @@ class ProjectViewModel {
     
     init(){
         self.projects = [
-            Project(logo: "choir", name: "CHOIR", description: "Collaborative Health Outcomes Information Registry", mentors: "Dr. Sean Mackey", url: "https://bit.ly/3mAOUmr", proposal: self.proposals["choir"] ?? ""),
-            Project(logo: "budi", name: "BUDI", description: "Biofeedback Upper-Limb Device for Impairment", mentors: "Dr. Jennifer O’Malley, Dr. Scott Delp, Dr. Emily Kraus, Blynn Shideler MS2", url: "https://bit.ly/3p5Tg6v", proposal: self.proposals["budi"] ?? ""),
-            Project(logo: "activate", name: "Activate", description: "Lifestyle Interventions for People with Schizophrenia Spectrum Disorders", mentors: "Dr. Douglas Noordsy, Dr. Vanika Chawla", url: "https://bit.ly/3IX7q1N", proposal: self.proposals["activate"] ?? ""),
-            Project(logo: "gaitmate", name: "GaitMate", description: "Functional Mobility Assessment (FMA) for Fall Risk", mentors: "Dr. Brian Suffoletto, Dr. David Kim", url: "https://bit.ly/3p4c7in", proposal: self.proposals["gaitmate"] ?? ""),
-            Project(logo: "vasctrac2", name: "Peripheral Artery Disease Tracking", description: "Peripheral Artery Disease Tracking", mentors: "Dr. Oliver Aalami", url: "https://bit.ly/31Abi7U", proposal: self.proposals["vasctrac2"] ?? "")
+            Project(logo: "choir", name: "CHOIR", description: "Collaborative Health Outcomes Information Registry", mentors: "Dr. Sean Mackey", url: "https://bit.ly/3mAOUmr", github: "https://github.com/cs342-choir", proposal: self.proposals["choir"] ?? ""),
+            Project(logo: "budi", name: "BUDI", description: "Biofeedback Upper-Limb Device for Impairment", mentors: "Dr. Jennifer O’Malley, Dr. Scott Delp, Dr. Emily Kraus, Blynn Shideler MS2", url: "https://bit.ly/3p5Tg6v", github: "https://github.com/cs342-budi", proposal: self.proposals["budi"] ?? ""),
+            Project(logo: "activate", name: "Activate", description: "Lifestyle Interventions for People with Schizophrenia Spectrum Disorders", mentors: "Dr. Douglas Noordsy, Dr. Vanika Chawla", url: "https://bit.ly/3IX7q1N", github: "https://github.com/cs342-activate", proposal: self.proposals["activate"] ?? ""),
+            Project(logo: "gaitmate", name: "GaitMate", description: "Functional Mobility Assessment (FMA) for Fall Risk", mentors: "Dr. Brian Suffoletto, Dr. David Kim", url: "https://bit.ly/3p4c7in", github: "https://github.com/cs342-gaitmate", proposal: self.proposals["gaitmate"] ?? ""),
+            Project(logo: "vasctrac2", name: "VascTrac 2.0", description: "Peripheral Artery Disease Tracking", mentors: "Dr. Oliver Aalami", url: "https://bit.ly/31Abi7U", github: "https://github.com/vasctrac", proposal: self.proposals["vasctrac2"] ?? "")
         ]
     }
     
     
     let proposals: [String: String] = [
         "choir": """
-            An astounding 50-100 million Americans live with ongoing pain, with approximately 20 million enduring high-impact chronic pain that includes substantially restricted work, social, and self-care activities. The National Academy of Medicine has called for the development of learning health systems to capture high-quality data in real-world clinical settings to optimize care and foster innovative research discoveries. We have answered that call by developing CHOIR – an open-source learning health system developed at Stanford with 10 years of implementation and enhancements. CHOIR is used extensively at Stanford and at academic medical centers nationally and has characterized hundreds of thousands of patients.
+            An astounding 50-100 million Americans live with ongoing pain, with approximately 20 million enduring high-impact chronic pain that includes substantially restricted work, social, and self-care activities. The National Academy of Medicine has called for the development of learning health systems to capture high-quality data in real-world clinical settings to optimize care and foster innovative research discoveries.
+        
+            We have answered that call by developing CHOIR – an open-source learning health system developed at Stanford with 10 years of implementation and enhancements. CHOIR is used extensively at Stanford and at academic medical centers nationally and has characterized hundreds of thousands of patients.
         
             As a web-based platform, CHOIR can collect many forms of data. However, CHOIR has long needed a system to integrate sensor and meta data from phones and wearables. Here, we propose to integrate sensor (e.g., triaxial accelerometry, heart rate and heart rate variability, GPS coordinates) and momentary assessments within the CHOIR data lake. Data integration will occur through SMART on FHIR technologies into the clinical electronic medical record and workflows for patient assessments. While many research projects may result from this effort, we first propose a project to characterize the associations between heart rate variability (an indicator of stress) and momentary assessment of chronic pain symptoms.
         """,

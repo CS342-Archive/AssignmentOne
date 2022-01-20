@@ -15,7 +15,7 @@ struct ProjectsView: View {
         ScrollView {
             HStack {
                 Text("Winter 2022 Projects")
-                    .font(.system(size: 50, weight: .light))
+                    .font(.system(size: 40, weight: .ultraLight))
                     .padding(.leading, 25)
                 Spacer()
             }

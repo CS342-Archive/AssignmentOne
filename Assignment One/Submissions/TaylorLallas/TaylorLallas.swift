@@ -33,7 +33,7 @@ struct TaylorLallas: View {
             HighlightReel()
             ContactMeView()
             Spacer(minLength: 15)
-        }
+        }.padding(.top, 50)
         .ignoresSafeArea()
     }
 }

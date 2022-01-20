@@ -47,18 +47,32 @@ struct ProjectCard: View {
                         .sheet(isPresented: $showDetails, content: {
                             VStack(){
                                 VStack(){
-                                    Text(project.name)
-                                        .font(.system(size: 50))
-                                        .foregroundColor(.white)
-                                        .fontWeight(.bold)
-                                        .multilineTextAlignment(.center)
-                                        .padding(.bottom, 15)
+                                    HStack {
+                                        
+                                        Image(project.logo)
+                                            .resizable()
+                                            .aspectRatio(contentMode: .fill)
+                                            .frame(width: 75, height: 75)
+                                            .cornerRadius(10)
+                                        
+                                        Spacer().frame(width: 20)
+                                        
+                                        VStack {
+                                            Text(project.name)
+                                                .font(.system(size: 40))
+                                                .foregroundColor(.white)
+                                                .fontWeight(.semibold)
+                                                .multilineTextAlignment(.center)
+                                            
+                                            Text(project.description)
+                                                .font(.system(size: 20))
+                                                .fontWeight(.light)
+                                                .multilineTextAlignment(.center)
+                                                .foregroundColor(.white)
+                                        }
+                                    }.padding(.bottom, 15)
                                     
-                                    Text(project.description)
-                                        .font(.system(size: 30))
-                                        .multilineTextAlignment(.center)
-                                        .foregroundColor(.white)
-                                        .padding(.bottom, 15)
+                                    
                                     
                                     Text("Led by \(project.mentors)")
                                         .font(.system(size: 20))
@@ -73,19 +87,21 @@ struct ProjectCard: View {
                                     }.padding(15)
                                     
                                     HStack{
-                                        Button("Team Github"){
-                                            print("Github")
+                                        if let urlString = project.github, let url = URL(string: urlString){
+                                            Link("Team Github", destination: url)
+                                                .padding()
+                                                .foregroundColor(.white)
+                                                .background(Color(red: 0, green: 0, blue: 0.5))
+                                                .clipShape(Capsule())
                                         }
-                                        .padding()
-                                        .foregroundColor(.white)
-                                        .background(Color(red: 0, green: 0, blue: 0.5))
-                                        .clipShape(Capsule())
                                         
-                                        Link("Team Card", destination: URL(string: project.url)!)
-                                            .padding()
-                                            .foregroundColor(.white)
-                                            .background(Color(red: 0, green: 0, blue: 0.5))
-                                            .clipShape(Capsule())
+                                        if let urlString = project.url, let url = URL(string: urlString){
+                                            Link("Team Card", destination: url)
+                                                .padding()
+                                                .foregroundColor(.white)
+                                                .background(Color(red: 0, green: 0, blue: 0.5))
+                                                .clipShape(Capsule())
+                                        }
                                         
                                     }
                                     

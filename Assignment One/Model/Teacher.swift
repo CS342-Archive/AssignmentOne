@@ -9,15 +9,14 @@ import Foundation
 
 struct Teacher {
     
-    public static var allTeachers: [(name: String, photo: String)] {
+    public static var allTeachers: [(name: String, photo: String)] =
         [
-            ("Oliver Aalami", ""),
-            ("Vishnu Ravi", ""),
-            ("Surabhi Mundada", ""),
-            ("Varun Shenoy", ""),
-            ("Santiago Gutierrez", ""),
-            ("Mike Hittle", "")
-        ].sorted(by: {$0.name < $1.name})
-    }
+            ("Oliver Aalami", "OliverAalami"),
+            ("Vishnu Ravi", "VishnuRavi"),
+            ("Surabhi Mundada", "SurabhiMundada"),
+            ("Varun Shenoy", "VarunShenoy"),
+            ("Santiago Gutierrez", "SantiagoGutierrez"),
+            ("Mike Hittle", "MikeHittle")
+        ]
     
 }
